@@ -10,8 +10,6 @@
 	"FileSystem"
 	{
 		"SteamAppId"	"1020690"
-		"ToolsAppId"	"211"
-
 		"SearchPaths"
 		{
 			"game+game_write+mod+mod_write+default_write_path+game_hd"		"|gameinfo_path|."
