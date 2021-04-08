@@ -1,0 +1,17 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\Weapons\alyxgun\Gun_Diff"
+	"$bumpmap" 	"models\Weapons\alyxgun\Gun_Normal"
+	"$roughness" 	"models\Weapons\alyxgun\Gun_Rough"
+	"$metallic" 	"models\Weapons\alyxgun\Gun_Metal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$pbr" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+	"$nocull" "1"
+}

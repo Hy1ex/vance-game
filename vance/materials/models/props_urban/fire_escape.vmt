@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$baseTexture "models\props_urban/fire_escape"
+$detail "detail\metal_detail_01"
+$detailscale 32
+$detailblendfactor ".3"
+$detailblendmode 0
+}

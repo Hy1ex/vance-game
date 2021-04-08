@@ -1,0 +1,9 @@
+"SDK_LightmappedGeneric"
+{
+	// Temp redirect until properly restored
+	"$basealphaenvmapmask" 1
+	"$basetexture" "Metal/metalwall071a"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+	"%keywords" "c17industrial,combine"
+}

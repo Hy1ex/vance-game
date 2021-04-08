@@ -1,0 +1,16 @@
+VertexLitPBR
+{
+	$basetexture "models/props_junk/can_sheet_BaseColor"
+	$metallic "models/props_junk/can_sheet_Metallic"
+	$bumpmap "models/props_junk/can_sheet_Normal"
+	$roughness "models/props_junk/can_sheet_Roughness"
+	$ao "models/props_junk/can_sheet_AO"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+
+	$envmap env_cubemap
+	"$pbr" "1"
+}

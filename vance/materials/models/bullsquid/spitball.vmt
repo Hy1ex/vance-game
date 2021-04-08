@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	// Original shader: TranslucentSpecularSphericalEnvMapWithMaskedBase
+	"$additive" 1
+	"$basealphaenvmapmask" 1
+	"$basetexture" "models/bullsquid/spitball"
+	"$envmap" "models/bullsquid/spitball_mask"
+	"$envmapsphere" 1
+	"$model" 1
+}

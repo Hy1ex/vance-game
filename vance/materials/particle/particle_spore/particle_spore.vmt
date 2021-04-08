@@ -1,0 +1,9 @@
+SpriteCard
+{
+$basetexture "particle/particle_spore/particle_spore"
+$translucent 1
+$DEPTHBLEND 0
+$minsize .00125
+$maxsize .25
+$blendframes 0
+}

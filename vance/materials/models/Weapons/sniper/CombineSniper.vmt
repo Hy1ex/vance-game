@@ -1,0 +1,18 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\sniper/sniper1_Diff"
+	"$bumpmap" 	"models\weapons\sniper/sniper1_Normal"
+
+	"$roughness"	"models/weapons/sniper/sniper1_Rough"
+	"$metallic"	"models/weapons/sniper/sniper1_Metal"
+	
+	"$ao"	"models/weapons/sniper/sniper1_AO"
+
+	"$blendTintByBaseAlpha"	"1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+}

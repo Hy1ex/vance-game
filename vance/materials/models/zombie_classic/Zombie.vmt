@@ -1,0 +1,20 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\zombie_classic\zombie_diff"
+	"$bumpmap" 	"models\zombie_classic\zombie_N"
+
+	"$roughness"	"models\zombie_classic\zombie_rough"
+	"$metallic"	"models\zombie_classic\zombie_metal"
+	"$ao"		"models\zombie_classic\zombie_AO"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}

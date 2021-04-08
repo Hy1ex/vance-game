@@ -1,0 +1,18 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\357/357_Diff"
+	"$bumpmap" 	"models\weapons\357/357_Normal"
+
+	"$roughness"	"models/weapons/357/357_Rough"
+	"$metallic"	"models/weapons/357/357_Metal"
+	
+	"$ao"	"models/weapons/357/357_AO"
+
+	"$blendTintByBaseAlpha"	"1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+}

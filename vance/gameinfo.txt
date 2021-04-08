@@ -1,0 +1,26 @@
+"GameInfo"
+{
+	"game"			"Vance"
+	"title"			"VANCE"
+	"icon"			"resource/icon" 
+	"SupportsVR"	"0"
+	"SupportsDX8"	"0"
+	"type"			"singleplayer_only"
+
+	"FileSystem"
+	{
+		"SteamAppId"	"1020690"
+		"ToolsAppId"	"211"
+
+		"SearchPaths"
+		{
+			"game+game_write+mod+mod_write+default_write_path+game_hd"		"|gameinfo_path|."
+			"gamebin"			"|gameinfo_path|bin"
+			
+			"game"				"hl2"
+			
+			"platform"			"platform/platform_misc.vpk"
+			"platform"			"platform"
+		}
+	}
+}

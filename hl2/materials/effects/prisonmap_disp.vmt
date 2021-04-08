@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/prisonmap_disp"
+	"Proxies"
+	{
+		"MaterialModifyAnimated"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 15 
+		}
+	}
+}

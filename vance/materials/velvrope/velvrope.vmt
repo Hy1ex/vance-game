@@ -1,0 +1,19 @@
+"SDK_VertexLitGeneric"
+{
+// File Created by Wall Worm ( http://dev.wallworm.com )
+	// Get Wall Worm Pro to remove this comment ( https://wallworm.com/store/index.php?route=product/product&product_id=54 )
+
+// BEGIN Textures
+	$basetexture "velvrope/rope1CompleteMap"
+	"$basemapAlphaPhongMask" "1"
+	"$surfaceprop" "metal"
+	"$phong" "1"
+	"$phongexponent" "125"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[1 2 6]"
+// END Textures
+
+
+
+
+

@@ -1,0 +1,9 @@
+"LightmappedPBR"
+{
+	"$basetexture" "PBR/stonetile_diffuse"
+	"$bumpmap" "PBR/stonetile_normal"
+	"$roughness" "PBR/stonetile_roughness"
+	"$metallic" "shadertest/black"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+}

@@ -1,0 +1,10 @@
+// envmaptint_fix
+"LightmappedPBR"
+{
+	"$basetexture" "Tile/tilefloor020a"
+	"$bumpmap" "tile/tilefloor021a_normal"
+	"$roughness" "tile/tilefloor021a_roughness"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "tile"
+	"%keywords" "combine"
+}

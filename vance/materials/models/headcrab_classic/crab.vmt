@@ -1,0 +1,20 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\headcrab_classic\crab_diff"
+	"$bumpmap" 	"models\headcrab_classic\crab_n"
+
+	"$roughness"	"models\headcrab_classic\crab_rough"
+	"$metallic"	"models/PBRTest/metal_null"
+	"$ao"		"models\headcrab_classic\crab_ao"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}

@@ -1,0 +1,10 @@
+"VertexLitPBR"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "Models/props_c17/floodlighthousing"
+	"$roughness" "Models/props_c17/floodlighthousing_smoothness"
+	"$metallic" "Models/props_c17/floodlighthousing_metallic"
+	"$usesmoothness" "1"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+}

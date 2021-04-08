@@ -1,0 +1,10 @@
+"LightmappedPBR"
+{
+	"$basetexture" "PBR/regression_base"
+	"$bumpmap" "PBR/regression_normal"
+	"$roughness" "PBR/regression_specular"
+	"$usesmoothness" "1"
+	"$metallic" "shadertest/black"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+}

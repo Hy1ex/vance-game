@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_c17\stairwell_rails001a_basecolor"
+	"$surfaceprop" "wood"
+	"$model" 1
+	
+}

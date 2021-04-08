@@ -1,0 +1,9 @@
+"LightmappedPBR"
+{
+	"$basetexture" "PBR/trainstationtilefloor_basecolor"
+	"$bumpmap" "PBR/trainstationtilefloor_normal"
+	"$roughness" "PBR/trainstationtilefloor_roughness"
+	"$metallic" "shadertest/black"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Humans/Female/Group01/kanisha_cylmap"
+	"$halflambert" 1
+	"$nodecal" "1"
+}

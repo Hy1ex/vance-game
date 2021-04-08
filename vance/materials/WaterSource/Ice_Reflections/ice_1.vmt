@@ -1,0 +1,7 @@
+"SDK_LightmappedGeneric"
+{
+	"$basetexture" "WaterSource/Ice_Reflections/ice1"
+	"$surfaceprop" "ice"
+	"$bumpmap" "WaterSource/Ice_Reflections/ice1_nrm"
+	"$translucent" "1"
+}

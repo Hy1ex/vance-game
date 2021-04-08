@@ -1,0 +1,8 @@
+"LightmappedPBR"
+{
+	"$basetexture" "terrain/dirtpath001a_basecolor"
+	"$bumpmap" "terrain/dirtpath001a_normal"
+	"$roughness" "terrain/dirtpath001a_roughness"
+	"$metallic" "shadertest/black"
+	"$surfaceprop" "dirt"
+}

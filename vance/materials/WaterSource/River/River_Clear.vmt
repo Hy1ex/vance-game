@@ -1,0 +1,19 @@
+"Refract"
+{
+ 	"$refractamount" ".02"
+	"$normalmap" "Watersource/river/river"
+	"%tooltexture" "Watersource/river/river"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" ".2"
+	"$envmaptint" "[.2 .2 .2]"
+	"$nocull" "1"
+	Proxies
+	{
+		TextureScroll
+		{
+			texturescrollvar $bumpTransform
+			texturescrollrate .75
+			texturescrollangle 0.00
+		}
+	}
+}

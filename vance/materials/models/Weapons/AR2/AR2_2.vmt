@@ -1,0 +1,18 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\AR2/ar22_dif"
+	"$bumpmap" 	"models\weapons\AR2/ar22_norm"
+
+	"$roughness"	"models/weapons/AR2/ar22_rough"
+	"$metallic"	"models/weapons/AR2/ar22_metal"
+	
+	"$ao"	"models/weapons/AR2/ar22_ao"
+
+	"$blendTintByBaseAlpha"	"1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+}

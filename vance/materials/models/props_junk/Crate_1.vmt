@@ -1,0 +1,16 @@
+VertexLitPBR
+{
+	$basetexture "models/props_junk/crate1_diff"
+	//$metallic "models/props_junk/crate1_metal"
+	$bumpmap "models/props_junk/crate1_n"
+	$roughness "models/props_junk/crate1_rough"
+	$ao "models/props_junk/crate1_ao"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+
+	$envmap env_cubemap
+	"$pbr" "1"
+}

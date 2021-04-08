@@ -1,0 +1,22 @@
+"SDK_LightmappedGeneric"
+{
+	"$basetexture" "Building_Template/courtyard_template005f"
+	"$bumpmap" "Building_Template/courtyard_templateC_normal"
+	"$roughness" "Building_Template/courtyard_templateC1_roughness"
+	"$metallic" "shadertest/black"
+	"$surfaceprop"  "concrete"
+	"$detail" "detail\plaster_detail_01"
+	"$detailscale" "8.583"
+	"$detailblendfactor" 1.2
+	"$detailblendmode" "0"
+
+	"$envmap" "env_cubemap"
+	//"$basealphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .75 .75 .75]"
+	"LightmappedGeneric_DX8"
+	{
+		"$envmaptint" "[.25 .25 .25]"
+	} 
+}

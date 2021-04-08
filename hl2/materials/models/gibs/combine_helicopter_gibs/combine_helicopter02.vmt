@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/Combine_Helicopter/combine_helicopter02"
+	"$surfaceprop" "metal"
+	"$translucent" 1
+	"$phong" "1"
+	"$phongboost" "2"
+	"$halflambert" "1"
+	"$phongexponent" "20"
+	"$phongalbedotint" "1"										
+	"$phongfresnelranges"	"[.1 .6 1.0]"
+}s

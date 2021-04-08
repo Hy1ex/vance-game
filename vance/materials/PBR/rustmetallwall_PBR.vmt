@@ -1,0 +1,9 @@
+"LightmappedPBR"
+{
+	"$basetexture" "PBR/rustmetalwall_diffuse"
+	"$bumpmap" "PBR/rustmetalwall_normal"
+	"$roughness" "PBR/rustmetalwall_roughness"
+	"$metallic" "PBR/rustmetalwall_metallic"
+	"$surfaceprop" "metalpanel"
+	"$envmap" "env_cubemap"
+}

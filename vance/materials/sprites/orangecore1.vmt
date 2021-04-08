@@ -1,0 +1,5 @@
+"Sprite"
+{
+	"$basetexture" "sprites/empty"
+	"$translucent" "1"
+}

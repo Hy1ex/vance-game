@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitMaskedEnvMappedTexture
+	"$basetexture" "models/bullsquid/eye"
+	"$envmap" "models/bullsquid/eye_CL_env"
+	"$envmapmask" "models/bullsquid/eye_CL_mask"
+	"$envmapsphere" 1
+	"$multipass" 1
+}

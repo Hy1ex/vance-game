@@ -1,0 +1,8 @@
+"LightmappedPBR"
+{
+	"$basetexture" "Metal/metalpanel026a_basecolor"
+	"$bumpmap" "Metal/metalpanel026a_normal"
+	"$roughness" "Metal/metalpanel026a_roughness"
+	"$metallic" "shadertest/black"
+	"$surfaceprop" "metal"
+}

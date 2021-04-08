@@ -1,0 +1,8 @@
+"LightmappedPBR"
+{
+	"$basetexture" "Metal/metalroofing005a_basecolor"
+	"$bumpmap" "Metal/metalroofing005a_normal"
+	"$roughness" "Metal/metalroofing005a_roughness"
+	"$metallic" "Metal/metalroofing005a_metallic"
+	"$surfaceprop" "metal"
+}

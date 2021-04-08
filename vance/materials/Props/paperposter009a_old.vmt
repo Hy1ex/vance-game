@@ -1,0 +1,6 @@
+"SDK_LightmappedGeneric"
+{
+	// Didn't exist in the leak; taken from RTB
+	"$basetexture" "Props/paperposter009a_old"
+	"$surfaceprop" "paper"
+}

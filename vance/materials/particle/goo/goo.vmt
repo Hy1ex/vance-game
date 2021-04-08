@@ -1,0 +1,7 @@
+SpriteCard
+{
+$basetexture "particle/goo/goo"
+$startfadesize .375
+$endfadesize .65
+$depthblendscale 16
+}

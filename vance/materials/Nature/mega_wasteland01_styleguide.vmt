@@ -1,0 +1,15 @@
+"SDK_WorldVertexTransition"
+{
+	"$basetexture" "Nature/mega_wasteland02_styleguide"
+	"$surfaceprop" "sand"
+	"$basetexture2" "Nature/mega_wasteland01_styleguide"
+	"$surfaceprop2" "sand"
+	"%tooltexture" "Nature/mega_wasteland01_styleguide"
+	"%detailtype" "seafloor1"
+
+	"$detail" "detail\detail_dry001"
+	"$detailscale" "40"
+	"$detailblendfactor" ".8"
+	"$detailblendmode" 0
+
+}

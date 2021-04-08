@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	$basetexture	"models/dev/crystal_bc"
+	$bumpmap	"models/dev/crystal_n"
+	$roughness	"models/dev/crystal_r"
+	$metallic		"models/dev/crystal_m"
+
+	$pbr			"1"
+	"$envmap" "env_cubemap"
+}

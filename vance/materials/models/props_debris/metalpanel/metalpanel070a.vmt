@@ -1,0 +1,11 @@
+"SDK_VertexLitGeneric"
+{
+	"$basetexture" "Metal/metalpanel070a_basecolor"
+	"$bumpmap" "Metal/metalpanel066a_normal"
+	"$roughness" "Metal/metalpanel066a_roughness"
+	"$metallic" "Metal/metalpanel066a_metallic"
+	"$surfaceprop" "metal"
+	
+	"$envmap" "env_cubemap"
+	"$pbr" "1"
+}

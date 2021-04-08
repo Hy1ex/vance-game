@@ -1,0 +1,21 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\elite_cop/Body_d"
+	"$bumpmap" 	"models\elite_cop/Body_n"
+
+	"$roughness"	"models/elite_cop/Body_rough"
+	"$metallic"	"models/elite_cop/Body_metal"
+	"$ao" 		"models/elite_cop/Body_AO"
+	
+	"$pbr" "1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}

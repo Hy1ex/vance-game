@@ -1,0 +1,8 @@
+"LightmappedPBR"
+{
+	"$basetexture" "Plaster/plasterinterior046c_basecolor"
+	"$bumpmap" "Plaster/plasterinterior046c_normal"
+	"$roughness" "Plaster/plasterinterior046c_roughness"
+	"$metallic" "shadertest/black"
+	"$surfaceprop" "plaster"
+}

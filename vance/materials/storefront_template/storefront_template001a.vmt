@@ -1,0 +1,9 @@
+"LightmappedPBR"
+{
+	"$basetexture" "Storefront_Template/Storefront_Template001a"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "Storefront_Template/Storefront_Template001a_normal"
+	"$envmap" "env_cubemap"
+	"$roughness" "Storefront_Template/Storefront_Template001a_roughness"
+	"$usesmoothness" "1"
+}

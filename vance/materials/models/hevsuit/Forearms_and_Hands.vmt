@@ -1,0 +1,23 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\hevsuit/hevsuit_hands_Diff"
+	"$bumpmap" 	"models\hevsuit/hevsuit_hands_Normal"
+
+	"$roughness"	"models/hevsuit/hevsuit_hands_rough"
+	"$metallic"	"models/hevsuit/hevsuit_hands_metal"
+	"$emissive"	"models/hevsuit/hevsuit_hands_emissive"
+	"$ao"		"models/hevsuit/hevsuit_hands_ao"
+
+	
+	"$pbr" "1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}

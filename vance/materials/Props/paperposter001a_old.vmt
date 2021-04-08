@@ -1,0 +1,6 @@
+"SDK_LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Props/paperposter001a_old"
+	"$surfaceprop" "paper"
+}

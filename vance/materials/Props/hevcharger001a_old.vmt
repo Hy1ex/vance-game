@@ -1,0 +1,7 @@
+"SDK_LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmapSelfIllum
+	"$basetexture" "Props/hevcharger001a"
+	"$selfillum" 1
+	"$surfaceprop" "metalpanel"
+}

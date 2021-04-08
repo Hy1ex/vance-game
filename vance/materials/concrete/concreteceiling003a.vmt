@@ -1,0 +1,11 @@
+// envmaptint_fix
+"LightmappedPBR"
+{
+	"$basetexture" "Concrete/concreteceiling003a"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "dev/flatnormal"
+	"$envmap" "env_cubemap"
+	"$roughness" "concrete\concretefloor005a_gloss"
+	"$usesmoothness" "1"
+
+}

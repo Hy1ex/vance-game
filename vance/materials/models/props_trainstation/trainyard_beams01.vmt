@@ -1,0 +1,8 @@
+"SDK_VertexLitGeneric"
+{
+     "$basetexture" "models\props_trainstation\trainyard_beams01"
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "12.3974"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+}

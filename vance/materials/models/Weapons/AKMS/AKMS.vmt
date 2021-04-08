@@ -1,0 +1,14 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\AKMS/AKMS_diff"
+	"$bumpmap" 	"models\weapons\AKMS/AKMS_normal"
+	"$roughness"	"models/weapons/AKMS/AKMS_Rough"
+	"$metallic"	"models/weapons/AKMS/AKMS_Metal"
+	"$ao"		"models/weapons/AKMS/AKMS_AO"	
+//metal
+	"$envmap" "env_cubemap"
+//	"$envmaptint" "[.01 .01 .01]"
+//	"$envmaptint" "{ 4 7 9 }"
+	"$pbr" "1"
+	"$alphatest" "1"
+}

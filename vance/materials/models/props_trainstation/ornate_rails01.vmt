@@ -1,0 +1,10 @@
+"SDK_VertexLitGeneric"
+{
+     "$basetexture" "models\props_trainstation\ornate_rails01"
+     "$surfaceprop" "metal"
+     "$alphatest" 1     
+     "$model" 1
+}
+
+
+

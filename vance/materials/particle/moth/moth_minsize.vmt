@@ -1,0 +1,10 @@
+SpriteCard
+{
+$basetexture "particle/Moth/moth.vtf"
+$translucent 1
+$vertexcolor 1
+$overbrightfactor 1
+$maxsize .04
+$minsize .0015
+$blendframes 0
+}

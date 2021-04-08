@@ -1,0 +1,8 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\PBRTest\envballs_color"
+
+	"$roughness"	"models\PBRTest\envballs_roughness"
+	"$metallic"	"models\PBRTest\envballs_metallic"
+	"$envmap" "env_cubemap"
+}

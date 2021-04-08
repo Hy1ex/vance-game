@@ -1,0 +1,11 @@
+spritecard
+{
+$basetexture "particle/blood_mist/blood_mist.vtf"
+$translucent 1
+$DEPTHBLEND 1
+$NOCULL 1
+
+
+
+
+}

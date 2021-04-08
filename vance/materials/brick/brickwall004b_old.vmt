@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	// Didn't exist in the leak
+	"$basetexture" "brick/brickwall004b_old"
+	"$surfaceprop" "concrete"
+	"%keywords" "c17downtown,wasteland"
+}

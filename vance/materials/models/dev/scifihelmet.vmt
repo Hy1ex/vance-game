@@ -1,0 +1,9 @@
+VertexLitPBR
+{
+	$basetexture "\models\dev\SciFiHelmet_BaseColor"
+	$roughness "\models\dev\scifihelmet_r"
+	$metallic "\models\dev\scifihelmet_m"
+	$ao "\models\dev\scifihelmet_ao"
+	$bumpmap "\models\dev\SciFiHelmet_Normal"
+	$envmap "env_cubemap"
+}

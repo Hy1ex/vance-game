@@ -1,0 +1,7 @@
+"SDK_LightmappedGeneric"
+{
+	// Temp redirect until properly restored
+	"$basetexture" "Metal/metalwall076a"
+	"$surfaceprop" "metal"
+	"%keywords" "c17industrial"
+}

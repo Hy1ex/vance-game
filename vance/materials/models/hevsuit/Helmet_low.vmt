@@ -1,0 +1,13 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\hevsuit/helmet_diff"
+	"$bumpmap" 	"models\hevsuit/helmet_normal"
+
+	"$roughness"	"models/hevsuit/helmet_rough"
+	"$metallic"	"models/hevsuit/helmet_metal"
+	"$ao"		"models/hevsuit/helmet_ao"
+	"$emissive"	"models/hevsuit/helmet_e"
+	
+	"$pbr" "1"
+	"$envmap" "env_cubemap"
+}

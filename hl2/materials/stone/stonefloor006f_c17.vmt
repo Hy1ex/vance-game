@@ -1,0 +1,27 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "Stone/stonefloor006f"
+	"$surfaceprop" "concrete"
+	"%keywords" "c17downtown,wasteland"
+	"$envmaptint" "[ .5 .5 .5 ]"
+
+	"LightmappedGeneric_DX9"
+ 	{
+		"$envmap" "env_cubemap"
+		"$envmapsaturation" 1
+		"$envmapcontrast" 1
+		"$envmaptint" "[ .6 .6 .6 ]"
+		"$bumpmap" "stone/stonefloor006c_normal"
+		"$normalmapalphaenvmapmask" 1
+	}
+	"lightmappedgeneric_HDR_dx9"
+	{
+		"$envmaptint" "[.15 .15 .15]"
+		"$envmap" "env_cubemap"
+		"$bumpmap" "stone/stonefloor006b_normal"
+		"$envmapsaturation" 1
+		"$envmapcontrast" 1
+		"$normalmapalphaenvmapmask" 1
+	}
+}

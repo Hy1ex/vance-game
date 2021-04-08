@@ -1,0 +1,19 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\PBRTest\PBRTest_Diff"
+	"$bumpmap" 	"models\PBRTest\PBRTest_N"
+
+	"$roughness"	"models\PBRTest\PBRTest_Rough"
+	"$metallic"	"models\PBRTest\PBRTest_Metal"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}

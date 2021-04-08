@@ -1,0 +1,423 @@
+detail
+{
+	forest_floor_01
+	{
+		"density" "450"
+
+		Group1
+		{
+			"alpha" "0"
+
+			Model1
+			{
+				"sprite" "187 176 151 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model2
+			{
+				"sprite" "21 15 151 150 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model3
+			{
+				"sprite" "186 16 150 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model4
+			{
+				"sprite" "22 178 148 147 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model5
+			{
+				"sprite" "350 14 148 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model6
+			{
+				"sprite" "348 176 148 146 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model7
+			{
+				"sprite" "21 337 150 170 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model8
+			{
+				"sprite" "185 337 152 152 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model9
+			{
+				"sprite" "347 364 143 115 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.4"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+		}
+		Group2
+		{
+			"alpha" "1"
+		}
+	}
+
+	canal_reeds2
+	{
+		"density" "750"
+
+		Group1
+		{
+			"alpha" "0"
+		}
+		Group2
+		{
+			"alpha" "0.2"
+		}
+		Group2a
+		{
+			"alpha" "0.35"
+
+			Model1
+			{
+				"sprite" "561 152 252 1024 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.8"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+		}
+		Group3
+		{
+			"alpha" "0.75"
+
+			Model1
+			{
+				"sprite" "561 152 252 1024 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.6"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+		}
+		Group4
+		{
+			"alpha" "1"
+
+			Model1
+			{
+				"sprite" "561 152 252 1024 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.2"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model2
+			{
+				"sprite" "347 364 143 115 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.4"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model3
+			{
+				"sprite" "350 14 148 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.2"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model4
+			{
+				"sprite" "185 337 152 152 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+		}
+	}
+
+	redgrass_alt
+	{
+		"density" "500"
+
+		Group1
+		{
+			"alpha" "0"
+
+			Model1
+			{
+				"sprite" "21 15 151 150 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model2
+			{
+				"sprite" "350 14 148 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model3
+			{
+				"sprite" "348 176 148 146 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model4
+			{
+				"sprite" "21 337 150 170 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model5
+			{
+				"sprite" "185 337 152 152 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model6
+			{
+				"sprite" "347 364 143 115 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.4"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+		}
+		Group2
+		{
+			"alpha" "1"
+		}
+	}
+
+	citygrass_light
+	{
+		"density" "400"
+
+		Group1
+		{
+			"alpha" "1"
+
+			Model1
+			{
+				"sprite" "347 364 143 115 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.6"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model2
+			{
+				"sprite" "21 15 151 150 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model3
+			{
+				"sprite" "350 14 148 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model4
+			{
+				"sprite" "348 176 148 146 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model5
+			{
+				"sprite" "185 337 152 152 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model6
+			{
+				"sprite" "21 337 150 170 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+		}
+		Group3
+		{
+			"alpha" "0.5"
+		}
+		Group4
+		{
+			"alpha" "0.3"
+		}
+		Group5
+		{
+			"alpha" "0"
+		}
+	}
+
+	coast_grass
+	{
+		"density" "1000"
+
+		Group1
+		{
+			"alpha" "0"
+
+			Model1
+			{
+				"sprite" "187 176 151 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model2
+			{
+				"sprite" "21 15 151 150 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model3
+			{
+				"sprite" "186 16 150 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model4
+			{
+				"sprite" "22 178 148 147 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model5
+			{
+				"sprite" "350 14 148 151 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model6
+			{
+				"sprite" "348 176 148 146 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model7
+			{
+				"sprite" "21 337 150 170 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model8
+			{
+				"sprite" "185 337 152 152 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+			Model9
+			{
+				"sprite" "347 364 143 115 1024"
+				"spritesize" "0.5 0 0 0"
+				"spriterandomscale" "0.2"
+				"amount" "0.4"
+				"detailOrientation" "2"
+				"sway" "0"
+			}
+		}
+		Group2
+		{
+			"alpha" "1"
+		}
+	}
+}

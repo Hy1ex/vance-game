@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/Humans/Female/Group02/naomi_facemap"
+	"$halflambert" 1
+	"$nodecal" "1"
+}

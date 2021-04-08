@@ -1,0 +1,15 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\stim/stim_diff"
+	"$bumpmap" 	"models\weapons\stim/stim_normal"
+	"$roughness"	"models/weapons/stim/stim_Rough"
+	"$metallic"	"models/weapons/stim/stim_Metal"
+	"$ao"		"models/weapons/stim/stim_AO"	
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+//	"$envmaptint" "[.01 .01 .01]"
+//	"$envmaptint" "{ 4 7 9 }"
+	"$pbr" "1"
+	"$alphatest" "1"
+}

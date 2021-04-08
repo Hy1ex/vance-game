@@ -1,0 +1,9 @@
+"Liquid"
+{
+	"$baseTexture" "models/props_borealis/bluebarrel001"
+	"$roughness" "models/props_borealis/bluebarrel001_smoothness"
+	"$usesmoothness" "1"
+	"$surfaceprop" "plastic"
+	"$envmap" "env_cubemap"
+}
+

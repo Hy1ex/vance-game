@@ -1,0 +1,12 @@
+// envmaptint_fix
+"LightmappedPBR"
+{
+	"$basetexture" "concrete\concretefloor033y"
+	"$surfaceprop" "concrete"
+	"%keywords" "c17downtown"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "concrete\concretefloor033y_normal"
+	"$roughness" "concrete\concretefloor033a_gloss"
+	"$usesmoothness" "1"
+
+}

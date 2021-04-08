@@ -1,0 +1,13 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\throwables\vodka/vodka_diff"
+	"$bumpmap" 	"models\weapons\throwables\vodka/vodka_normal"
+	"$roughness"	"models/weapons/throwables\vodka/vodka_Rough"
+	"$metallic"	"models/weapons/throwables\vodka/vodka_Metal"
+	"$ao"		"models/weapons/throwables\vodka/vodka_AO"	
+//metal
+	"$envmap" "env_cubemap"
+//	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+	"$translucent" "1"
+}

@@ -1,0 +1,10 @@
+"VertexlitPBR"
+{
+	"$basetexture"			"models/dev/shaderball_space_basetexture"
+	"$bumpmap"				"models/dev/shaderball_space_bumpmap"
+	"$metallic"				"models/dev/shaderball_space_metallic"
+	"$roughness"			"models/dev/shaderball_space_roughness"
+	"$ao"					"models/dev/shaderball_space_ao"
+	"$emissive"				"models/dev/shaderball_space_emissive"
+	"$envmap"				"env_cubemap"
+}

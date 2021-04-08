@@ -1,0 +1,10 @@
+"VertexLitPBR"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "Models/props_vehicles/car002a_01"
+	"$roughness" "Models/props_vehicles/car002a_01_smoothness"
+	"$metallic" "Models/props_vehicles/car002a_01_metallic"
+	"$usesmoothness" "1"
+	"$surfaceprop" "solidmetal"
+	"$envmap" "env_cubemap"
+}

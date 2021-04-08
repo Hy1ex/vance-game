@@ -1,0 +1,18 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\shotgun/Shotgun_Diff"
+	"$bumpmap" 	"models\weapons\shotgun/Shotgun_Normal"
+
+	"$roughness"	"models/weapons/shotgun/Shotgun_Rough"
+	"$metallic"	"models/weapons/shotgun/Shotgun_Metal"
+	
+	"$ao"	"models/weapons/shotgun/Shotgun_AO"
+
+	"$blendTintByBaseAlpha"	"1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+}

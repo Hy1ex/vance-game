@@ -1,0 +1,9 @@
+"VertexLitPBR"
+{
+	"$basetexture" "models/props_combine/Combine_InnerWall001"
+	"$roughness" "models/props_combine/combine_innerwall001_smoothness"
+	"$metallic" "models/props_combine/combine_innerwall001_metallic"
+	"$usesmoothness" "1"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+}

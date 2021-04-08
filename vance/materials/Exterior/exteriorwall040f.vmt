@@ -1,0 +1,8 @@
+"LightmappedPBR"
+{
+	"$basetexture" "Exterior/Exteriorwall040f_basecolor"
+	"$bumpmap" "Exterior/Exteriorwall040f_normal"
+	"$roughness" "Exterior/Exteriorwall040f_roughness"
+	"$metallic" "shadertest/black"
+	"$surfaceprop" "concrete"
+}

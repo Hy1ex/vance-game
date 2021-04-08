@@ -1,0 +1,9 @@
+"VertexLitPBR"
+{
+	"$basetexture" "models/combine_turrets/floor_turret/combine_gun002"
+	"$roughness" "models/combine_turrets/floor_turret/combine_gun002_smoothness"
+	"$metallic" "models/combine_turrets/floor_turret/combine_gun002_metallic"
+	"$usesmoothness" "1"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+}

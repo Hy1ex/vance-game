@@ -1,0 +1,31 @@
+// Choreo version 1
+actor "gman"
+{
+  channel "anims"
+  {
+    event flexanimation "head"
+    {
+      time 0.380000 2.439445
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_rightleft" range 30.0 -30.0 
+        {
+          0.6681 0.4900
+          1.0638 0.4100
+        }
+        "head_updown" range 15.0 -15.0 
+        {
+          0.1306 0.4200
+          0.7750 0.5200
+          1.1694 0.2600
+        }
+        "head_tilt" range 15.0 -15.0 
+        {
+          0.4035 0.6500
+        }
+      }
+    }
+  }
+}
+

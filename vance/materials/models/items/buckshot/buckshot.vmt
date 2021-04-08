@@ -1,0 +1,22 @@
+"SDK_VertexLitGeneric"
+{
+	"$baseTexture"	"models\items\buckshot/buckshot_diffuse"
+	"$bumpmap" 	"models\items\buckshot/buckshot_normal"
+
+	"$color2"		"[0.35 0.35 0.35]"
+	"$blendTintByBaseAlpha"	"1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+
+	"$phongalbedotint" 1
+	"$phong" "1"
+	"$phongboost"	"0.7"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}

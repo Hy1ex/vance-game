@@ -1,0 +1,21 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\Emp/Emp_diff"
+	"$bumpmap" 	"models\weapons\Emp/Emp_normal"
+	"$roughness"	"models/weapons/Emp/Emp_Rough"
+	"$metallic"	"models/weapons/Emp/Emp_Metal"
+	"$ao"		"models/weapons/Emp/Emp_AO"	
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+//	"$envmaptint" "[.01 .01 .01]"
+//	"$envmaptint" "{ 4 7 9 }"
+	"$pbr" "1"
+	"$alphatest" "1"
+
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}

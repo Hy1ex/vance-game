@@ -1,0 +1,9 @@
+"VertexLitPBR"
+{
+	"$basetexture" "models/Weapons/wrench/wrench"
+	"$bumpmap" "models/Weapons/wrench/wrench_n"
+	"$envmap"            "env_cubemap"
+	"$pbr" "1"
+	"$roughness" "models/Weapons/wrench/wrench_r"
+	"$rmetallic" "models/Weapons/wrench/wrench_m"
+}

@@ -1,0 +1,26 @@
+"SDK_VertexLitGeneric"
+{
+// File Created by Wall Worm ( http://dev.wallworm.com )
+	// Get Wall Worm Pro to remove this comment ( https://wallworm.com/store/index.php?route=product/product&product_id=54 )
+
+// BEGIN Textures
+	$basetexture "coral/coral_red"
+	$bumpmap "coral/coral_norm"
+	"$normalmapalphaenvmapmask" 1
+// END Textures
+
+
+
+// BEGIN ENV and Reflections
+	"$envmap" "env_cubemap"
+
+// END ENV and Reflections
+
+// BEGIN Transparency
+	"$nocull" 1
+	"$alphatest" 1
+	"$AlphaTestReference" "0.5"
+// END Transparency
+
+
+}

@@ -1,0 +1,14 @@
+"SDK_VertexLitGeneric"
+{
+     "$basetexture" "models\props_trainstation\storefront01"
+     "$surfaceprop" "plastic"
+     "$envmap" "env_cubemap"
+     "$envmapmask" "models\props_trainstation\storefront01_mask"
+     "$envmapsaturation" 0.2
+     "$envmapcontrast" .8
+     "$envmaptint" "[.9 .9 .9]"
+
+}
+
+
+
