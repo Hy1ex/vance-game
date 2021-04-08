@@ -1,1 +1,1 @@
-start hl2.exe -game vance -windowed -noborder -w 1280 -h 720 -condebug
+start hl2.exe -game vance -windowed -noborder -w 1920 -h 1080
