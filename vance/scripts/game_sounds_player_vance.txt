@@ -144,6 +144,23 @@
 	}
 }
 
+"AlyxPlayer.JumpGear"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.2"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/pl_jumpgear1.wav"
+		"wave"	"player/pl_jumpgear2.wav"
+		"wave"	"player/pl_jumpgear3.wav"
+		"wave"	"player/pl_jumpgear4.wav"
+		"wave"	"player/pl_jumpgear5.wav"
+		"wave"	"player/pl_jumpgear6.wav"
+	}
+}
+
 "AlyxPlayer.Land"
 {
 	"channel"	"CHAN_VOICE"

@@ -22,6 +22,12 @@ WeaponData
 	"item_flags"			"0"
 	
 
+	"CameraAttachment"
+	{
+		"Attachment"	"camera"
+		"Amount"	"4"
+	}
+
 	"Collision"
 	{
 		"Offset"	"-20 0 -20"
