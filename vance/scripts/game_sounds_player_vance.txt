@@ -62,15 +62,6 @@
 
 }
 
-"HL2Player.AmmoPickup_Suitless"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1"
-	"soundlevel"  "SNDLVL_75dB"
-
-	"wave"	"items/itempickup_suitless.wav"
-}
-
 "AlyxPlayer.Die"
 {
 	"channel"	"CHAN_VOICE"
@@ -175,33 +166,4 @@
 		"wave"	"player/pl_land4.wav"
 		"wave"	"player/pl_land5.wav"
 	}
-}
-
-"HL2Player.PickupWeapon_Suitless"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"0.8"
-	"soundlevel"  "SNDLVL_75dB"
-
-	"wave"	"items/itempickup_suitless.wav"
-}
-
-"HL2Player.FlashLightOn_Suitless"
-{
-	"channel"	"CHAN_WEAPON"
-	"volume"	"0.8"
-	"soundlevel"    "SNDLVL_75dB"
-	"pitch"	"PITCH_NORM"
-
-	"wave" "items/flashlight1_suitless.wav"
-}
-
-"HL2Player.FlashLightOff_Suitless"
-{
-	"channel"	"CHAN_WEAPON"
-	"volume"	"0.8"
-	"soundlevel"  "SNDLVL_75dB"
-	"pitch"	"PITCH_NORM"
-
-	"wave" "items/flashlight1_suitless.wav"
 }

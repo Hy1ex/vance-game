@@ -41,40 +41,13 @@
 //	SNDLVL_140dB	= 140,	// 0.2
 //	SNDLVL_150dB	= 150,	// 0.2
 
-"ItemBattery.Touch_Suitless"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1"
-	"soundlevel"  "SNDLVL_75dB"
-
-	"wave"	"items/battery_pickup_suitless.wav"
-}
-
-"HealthKit.Touch_Suitless"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1"
-	"soundlevel"  "SNDLVL_75dB"
-
-	"wave"	"items/itempickup_suitless.wav"
-}
-
 "Stim.Touch"
 {
 	"channel"	"CHAN_ITEM"
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"	"items/itempickup_suitless.wav"
-}
-
-"Stim.Touch_Suitless"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1"
-	"soundlevel"  "SNDLVL_75dB"
-
-	"wave"	"items/itempickup_suitless.wav"
+	"wave"	"items/itempickup.wav"
 }
 
 "Tourniquet.Touch"
@@ -83,14 +56,5 @@
 	"volume"	"1"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"	"items/itempickup_suitless.wav"
-}
-
-"Tourniquet.Touch_Suitless"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1"
-	"soundlevel"  "SNDLVL_75dB"
-
-	"wave"	"items/itempickup_suitless.wav"
+	"wave"	"items/itempickup.wav"
 }

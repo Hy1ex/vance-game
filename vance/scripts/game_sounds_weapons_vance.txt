@@ -233,11 +233,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"		"90,105"
 
-	"rndwave"
-	{
-		"wave"	"weapons/ar2/ar2_fire1.wav"
-		"wave"	"weapons/ar2/ar2_fire2.wav"
-	}
+	"wave"		"weapons/ar2/ar2_fire1.wav"
 }
 
 "Weapon_Sniper.Shoot"
