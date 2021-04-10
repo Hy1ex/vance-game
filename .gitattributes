@@ -19,5 +19,6 @@
 *.dsp			-text !filter !diff !merge
 *.bat			-text !filter !diff !merge
 *.sh			-text !filter !diff !merge
+*.md			-text !filter !diff !merge
 .gitattributes	-text !filter !diff !merge
 .gitignore		-text !filter !diff !merge
