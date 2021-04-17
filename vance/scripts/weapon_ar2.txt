@@ -12,15 +12,15 @@ WeaponData
 	"bucket_360"			"1"
 	"bucket_position_360"		"2"
 
-	"clip_size"			"52"
-	"default_clip"			"52"
+	"clip_size"			"40"
+	"default_clip"			"40"
 
 	"clip2_size"			"-1"
 	"default_clip2"			"-1"
 
 	"primary_ammo"			"AR2"
 	"secondary_ammo"		"AR2AltFire"
-	"rpm"				"750"
+	"rpm"				"500"
 	
 	"weight"			"5"
 	"rumble"			"4"

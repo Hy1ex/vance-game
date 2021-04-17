@@ -12,7 +12,7 @@ WeaponData
 	"bucket_360"			"1"
 	"bucket_position_360"	"0"
 
-	"clip_size"				"45"
+	"clip_size"				"40"
 	"clip2_size"			"-1"
 
 	"default_clip"			"45"
