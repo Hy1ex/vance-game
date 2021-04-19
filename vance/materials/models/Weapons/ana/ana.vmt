@@ -1,0 +1,18 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\ana/ana_Diff"
+	"$bumpmap" 	"models\weapons\ana/ana_Normal"
+
+	"$roughness"	"models/weapons/ana/ana_Rough"
+	"$metallic"	"models/weapons/ana/ana_Metal"
+	
+	"$ao"	"models/weapons/ana/ana_AO"
+
+	"$blendTintByBaseAlpha"	"1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+}

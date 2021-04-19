@@ -93,6 +93,22 @@
 	}
 }
 
+"Weapon_Ana.Single"
+{
+	"channel"			"CHAN_AUTO"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"		"SNDLVL_GUNFIRE"
+	
+	"rndwave"
+	{
+		"wave"			"weapons/ana/ana_fire1.wav"
+		"wave"			"weapons/ana/ana_fire2.wav"
+		"wave"			"weapons/ana/ana_fire3.wav"
+		"wave"			"weapons/ana/ana_fire4.wav"
+	}
+}
+
 "Weapon_Shotgun.Special1"
 {
 	"channel"		"CHAN_ITEM"
