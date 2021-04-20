@@ -326,3 +326,6 @@
 
 @PointClass base(Item) studio("models/healthvial.mdl") = item_stim : "Stimulant" []
 @PointClass base(Item) studio("models/healthvial.mdl") = item_tourniquet : "Tourniquet" []
+@PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_anastasia : "10 Gauge" []
+@PointClass base(Weapon) studio("models/props_junk/garbage_glassbottle003a.mdl") = weapon_bottle : "Vodka Bottle" []
+@PointClass base(Weapon) studio("models/weapons/w_warpcore.mdl") = weapon_hopwire : "Flechette Grenades" []
