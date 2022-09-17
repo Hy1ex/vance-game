@@ -1,7 +1,7 @@
 "GameInfo"
 {
 	"game"			"Vance"
-	"title"			"VANCE"
+	"title"			""
 	"icon"			"resource/icon" 
 	"SupportsVR"	"0"
 	"SupportsDX8"	"0"
