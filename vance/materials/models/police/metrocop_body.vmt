@@ -1,0 +1,13 @@
+VertexLitPBR
+{
+	$baseTexture	models/police/metrocop_body_color
+	$bumpmap 		models/police/metrocop_body_normal
+
+	$roughness	models/police/metrocop_body_rough
+	$metallic	models/police/metrocop_body_metal
+	$ao			models/police/metrocop_body_ao
+	$selfillum	models/police/metrocop_body_emissive
+	
+	$pbr 1
+	$envmap env_cubemap
+}
