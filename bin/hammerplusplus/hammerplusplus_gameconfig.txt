@@ -1,0 +1,58 @@
+"Configs"
+{
+	"Games"
+	{
+		"Half-Life 2"
+		{
+			"GameDir"		"K:\Games\game\hl2"
+			"Hammer"
+			{
+				"GameData0"		"K:\Games\game\bin\halflife2.fgd"
+				"TextureFormat"		"5"
+				"MapFormat"		"4"
+				"DefaultTextureScale"		"0.250000"
+				"DefaultLightmapScale"		"16"
+				"GameExe"		"K:\Games\game\hl2.exe"
+				"DefaultSolidEntity"		"func_detail"
+				"DefaultPointEntity"		"info_player_start"
+				"BSP"		"K:\Games\game\bin\vbsp.exe"
+				"Vis"		"K:\Games\game\bin\vvis.exe"
+				"Light"		"K:\Games\game\bin\vrad.exe"
+				"GameExeDir"		"K:\Games\game"
+				"MapDir"		"K:\Games\game\sourcesdk_content\hl2\mapsrc"
+				"BSPDir"		"K:\Games\game\hl2\maps"
+				"CordonTexture"		"tools\toolsskybox"
+				"MaterialExcludeCount"		"0"
+				"Previous"		"0"
+			}
+		}
+		"Vance"
+		{
+			"GameDir"		"K:\Games\game\vance"
+			"Hammer"
+			{
+				"GameData0"		"K:\Games\game\bin\base.fgd"
+				"GameData1"		"K:\Games\game\bin\halflife2.fgd"
+				"GameData2"		"K:\Games\game\vance\vance.fgd"
+				"TextureFormat"		"5"
+				"MapFormat"		"4"
+				"DefaultTextureScale"		"0.250000"
+				"DefaultLightmapScale"		"16"
+				"GameExe"		"K:\Games\game\hl2.exe"
+				"DefaultSolidEntity"		"color_correction_volume"
+				"DefaultPointEntity"		"ai_ally_manager"
+				"BSP"		"K:\Games\game\bin\vbsp.exe"
+				"Vis"		"K:\Games\game\bin\vvis.exe"
+				"Light"		"K:\Games\game\bin\vrad.exe"
+				"GameExeDir"		"K:\Games\game"
+				"MapDir"		"K:\Games\game\vance\maps"
+				"BSPDir"		"K:\Games\game\vance\maps"
+				"PrefabDir"		"K:\Games\game\bin\Prefabs"
+				"CordonTexture"		"tools/toolsskybox"
+				"MaterialExcludeCount"		"0"
+				"Previous"		"1"
+			}
+		}
+	}
+	"SDKVersion"		"5"
+}
