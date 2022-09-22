@@ -33,3 +33,6 @@ screenshots
 shader_cache.cfg
 voice_ban.dt
 whitelist.cfg
+bin/hammerplusplus/hammerplusplus_keybindings.cfg
+bin/hammerplusplus/hammerplusplus_vgui.vdf
+*.vmf_autosave
