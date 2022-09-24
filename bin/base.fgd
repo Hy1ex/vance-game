@@ -30,6 +30,8 @@
 	skin(integer) : "Skin" : 0 : "Some models have multiple versions of their textures, called skins. Set this to a number other than 0 to use that skin instead of the default."
 	modelscale(float) : "Model Scale" : "1.0" : "A multiplier for the size of the model."
 
+	hackable(integer) : "Hackable" : 0 : "Can the player hack this object?"
+
 	disableshadows(choices) : "Disable Shadows" : 0 : "Used to disable dynamic shadows on this entity." =
 	[
 		0 : "No"
@@ -45,6 +47,7 @@
 
 	// Outputs
 	output OnIgnite(void) : "Fired when this object catches fire."
+	output OnHacked(void) : "Fired when this object is hacked."
 ]
 
 @BaseClass = BasePlat
