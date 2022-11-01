@@ -58,3 +58,26 @@
 
 	"wave"	"items/itempickup.wav"
 }
+
+//interactive
+"interactive_boxcar.open"
+{
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"interactive/boxcar/boxcar_open.wav"
+}
+"interactive_boxcar.close"
+{
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"interactive/boxcar/boxcar_close.wav"
+}
+"interactive_boxcar.jiggle"
+{
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"interactive/boxcar/boxcar_jiggle.wav"
+}
