@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+    $baseTexture    models/props_trainstation/track_section_color
+    $bumpmap         models/props_trainstation/track_section_normal
+    $roughness    models/props_trainstation/track_section_rough
+    $ao            models/props_trainstation/track_section_ao
+	$metallic		models/props_trainstation/track_section_metal
+    
+    $pbr 1
+    $envmap env_cubemap
+}
