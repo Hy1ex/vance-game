@@ -1,0 +1,15 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\hammer/SH_diff"
+	"$bumpmap" 	"models\weapons\hammer/SH_normal"
+	"$roughness"	"models/weapons/hammer/SH_Rough"
+	"$metallic"	"models/weapons/hammer/SH_Metal"
+	"$ao"		"models/weapons/hammer/SH_AO"	
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+//	"$envmaptint" "{ 4 7 9 }"
+	"$pbr" "1"
+	"$alphatest" "1"
+}

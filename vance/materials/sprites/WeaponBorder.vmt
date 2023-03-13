@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/WeaponBorder"
+	"$alphatest" 1
+	"$translucent" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+}

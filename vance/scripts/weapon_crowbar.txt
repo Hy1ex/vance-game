@@ -4,8 +4,8 @@ WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2_Crowbar"
-	"viewmodel"				"models/weapons/v_bottle.mdl"
-	"playermodel"			"models/weapons/w_crowbar.mdl"
+	"viewmodel"				"models/weapons/v_hammer.mdl"
+	"playermodel"			"models/weapons/w_sledge.mdl"
 	"anim_prefix"			"crowbar"
 	"bucket"				"0"
 	"bucket_position"		"0"
