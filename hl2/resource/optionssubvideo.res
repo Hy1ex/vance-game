@@ -58,10 +58,10 @@
 		"NumericInputOnly"		"0"
 		"unicode"		"0"
 	}
-	"VRMode"
+	"HudAspectRatio"
 	{
 		"ControlName"		"ComboBox"
-		"fieldName"		"VRMode"
+		"fieldName"		"HudAspectRatio"
 		"xpos"		"36"
 		"ypos"		"196"
 		"wide"		"160"
@@ -302,10 +302,10 @@
 		"use_proportional_insets"		"0"
 		"Default"		"0"
 	}
-	"VRModeLabel"
+	"HudAspectRatioLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"VRModeLabel"
+		"fieldName"		"HudAspectRatioLabel"
 		"xpos"		"36"
 		"ypos"		"170"
 		"wide"		"160"
@@ -315,9 +315,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#GameUI_VRMode"
+		"labelText"		"#GameUI_HUDAspectRatio"
 		"textAlignment"		"west"
-		"associate"		"VRMode"
+		"associate"		"HudAspectRatio"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"

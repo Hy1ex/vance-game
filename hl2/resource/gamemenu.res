@@ -11,7 +11,7 @@
 	{
 		"label" "#GameUI_GameMenu_NewGame"
 		"command" "OpenNewGameDialog"
-		"InGameOrder" "40"
+		"InGameOrder" "20"
 		"notmulti" "1"
 	}
 	"6"
@@ -25,7 +25,7 @@
 	{
 		"label" "#GameUI_GameMenu_SaveGame"
 		"command" "OpenSaveGameDialog"
-		"InGameOrder" "20"
+		"InGameOrder" "40"
 		"notmulti" "1"
 		"OnlyInGame" "1"
 	}
@@ -33,7 +33,7 @@
 	{
 		"label" "#GameUI_GameMenu_ActivateVR"
 		"command" "engine vr_activate"
-		"InGameOrder" "40"
+		"InGameOrder" "50"
 		"OnlyWhenVREnabled" "1"
 		"OnlyWhenVRInactive" "1"
 	}
@@ -41,40 +41,34 @@
 	{
 		"label" "#GameUI_GameMenu_DeactivateVR"
 		"command" "engine vr_deactivate"
-		"InGameOrder" "40"
+		"InGameOrder" "60"
 		"OnlyWhenVREnabled" "1"
 		"OnlyWhenVRActive" "1"
 	}
 	"8"
 	{
-		"label"	"#GameUI_LoadCommentary"
-		"command" "OpenLoadSingleplayerCommentaryDialog"
-		"InGameOrder" "50"
+		"label" "#GameUI_GameMenu_Achievements"
+		"command" "OpenAchievementsDialog"
+		"InGameOrder" "70"
 	}
 	"9"
 	{
-		"label" "#GameUI_GameMenu_Achievements"
-		"command" "OpenAchievementsDialog"
-		"InGameOrder" "60"
+		"label" "#GameUI_Controller"
+		"command" "OpenControllerDialog"
+		"InGameOrder" "80"
+		"ConsoleOnly" "1"
 	}
 	"10"
 	{
-		"label" "#GameUI_Controller"
-		"command" "OpenControllerDialog"
-		"InGameOrder" "70"
-		"ConsoleOnly" "1"
+		"label" "#GameUI_GameMenu_Options"
+		"command" "OpenOptionsDialog"
+		"InGameOrder" "90"
 	}
 	"11"
 	{
-		"label" "#GameUI_GameMenu_Options"
-		"command" "OpenOptionsDialog"
-		"InGameOrder" "80"
-	}
-	"12"
-	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
-		"InGameOrder" "90"
+		"InGameOrder" "100"
 	}
 }
 

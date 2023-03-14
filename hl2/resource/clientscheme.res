@@ -24,6 +24,7 @@ Scheme
 	BaseSettings
 	{
 		"FgColor"			"255 220 0 100"
+		"FgColor_vrmode"	"255 220 0 200"
 		"BgColor"			"0 0 0 76"
 
 		"Panel.FgColor"			"255 220 0 100"
@@ -50,15 +51,15 @@ Scheme
 		"Caution"			"255 48 0 255"
 
 		// Top-left corner of the "Half-Life 2" on the main screen
-		"Main.Title1.X"				"76"
-		"Main.Title1.Y"				"145"
-		"Main.Title1.Y_hidef"		"130"
+		"Main.Title1.X"			"53"
+		"Main.Title1.Y"			"190"
+		"Main.Title1.Y_hidef"	"184"
 		"Main.Title1.Color"	"255 255 255 255"
 
 		// Top-left corner of secondary title e.g. "DEMO" on the main screen
-		"Main.Title2.X"				"76"
-		"Main.Title2.Y"				"190"
-		"Main.Title2.Y_hidef"		"174"
+		"Main.Title2.X"				"291"
+		"Main.Title2.Y"				"207"
+		"Main.Title2.Y_hidef"		"242"
 		"Main.Title2.Color"	"255 255 255 200"
 
 		// Top-left corner of the menu on the main screen
@@ -103,7 +104,7 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"14"
+				"tall"		"10"
 				"weight"	"400"
 				"antialias" "1"
 			}
@@ -112,25 +113,18 @@ Scheme
 		// if a font fails to load then the subsequent fonts will replace
 		Default
 		{
-			"1"	[$X360]
+			"1"
 			{
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
 				"antialias" "1"
-			}
-			"1"	[$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"9"
-				"weight"	"700"
-				"antialias" "1"
-				"yres"	"1 599"
+				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"16"
 				"weight"	"700"
 				"antialias" "1"
 				"yres"	"600 767"
@@ -138,7 +132,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"19"
 				"weight"	"900"
 				"antialias" "1"
 				"yres"	"768 1023"
@@ -146,18 +140,17 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"900"
 				"antialias" "1"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Proportional - Josh
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"900"
 				"antialias" "1"
-				"yres"	"1200 10000"
 				"additive"	"1"
 			}
 		}
@@ -166,7 +159,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -174,7 +167,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -182,7 +175,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -197,19 +190,18 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Proportional - Josh
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Arial"
-				"tall"		"12"
+				"tall"		"10"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -219,7 +211,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -227,7 +219,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -235,7 +227,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -244,32 +236,31 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"20"
+				"tall"		"18"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5"  // Proportional - Josh
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
 			"7"
 			{
 				"name"		"Arial"
-				"tall"		"11"
+				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -279,7 +270,7 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"64"
+				"tall"		"70"
 				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
@@ -292,7 +283,7 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"64"
+				"tall"		"70"
 				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
@@ -307,7 +298,19 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"32"
+				"tall"		"36"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		FlashlightDeck
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"46"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -319,13 +322,39 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"40" [!$OSX]
-				"tall"		"41" [$OSX]
+				"tall"		"44"
 				"weight"	"0"
 				"antialias" "0"
 				"additive"	"1"
 				"custom"	"1"
-				"yres"		"1 10000"
+			}
+			"2"
+			{
+				"name"		"HalfLife2"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+			"3"
+			{
+				"name"		"HalfLife2"
+				"tall"		"64"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+				"yres"		"3200 4799"
+			}
+			"4"
+			{
+				"name"		"HalfLife2"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
 			}
 		}
 		QuickInfo
@@ -342,12 +371,11 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"HL2cross"
-				"tall"		"28" [!$OSX]
-				"tall"		"50" [$OSX]
+				"tall"		"40"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
-				"custom"	"1" [!$OSX]
+				"custom"	"1"
 			}
 		}
 		HudNumbers
@@ -355,8 +383,7 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"32"	[$WIN32]
-				"tall"		"38"	[$X360]
+				"tall"		"40"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -380,8 +407,7 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"32"	[$WIN32]
-				"tall"		"38"	[$X360]
+				"tall"		"40"
 				"weight"	"0"
 				"blur"		"4"
 				"scanlines" "2"
@@ -396,8 +422,7 @@ Scheme
 			{
 				"name"		"HalfLife2" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
-				"tall"		"16"	[$WIN32]
-				"tall"		"22"	[$X360]
+				"tall"		"26"
 				"weight"	"1000"
 				"additive"	"1"
 				"antialias" "1"
@@ -409,7 +434,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"11"
+				"tall"		"16"
 				"weight"	"700"
 				"antialias" "1"
 				"additive"	"1"
@@ -428,7 +453,7 @@ Scheme
 			{
 				"name"		"Verdana" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
-				"tall"		"14"
+				"tall"		"22"
 				"weight"	"1000"
 				"antialias" "1"
 				"additive"	"1"
@@ -440,7 +465,7 @@ Scheme
 			{
 				"name"		"Verdana" [!$OSX]
 				"name"		"Helvetica" [$OSX]
-				"tall"		"11"
+				"tall"		"18"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -459,42 +484,46 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"8"
+				"tall"		"10"
 				"weight"	"700"
 				"antialias" "1"
 				"yres"	"1 599"
+				"additive"	"1"
 			}
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"700"
 				"antialias" "1"
 				"yres"	"600 767"
+				"additive"	"1"
 			}
 			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"900"
-				"antialias" "1"
-				"yres"	"768 1023"
-			}
-			"4"
 			{
 				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
+				"yres"	"768 1023"
+				"additive"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
 				"yres"	"1024 1199"
+				"additive"	"1"
 			}
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"17"
-				"weight"	"1000"
+				"tall"		"8"
+				"weight"	"900"
 				"antialias" "1"
-				"yres"	"1200 10000"
+				"additive"	"1"
 			}
 		}
 		GameUIButtons
@@ -542,9 +571,9 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
+				"tall"		"28"
 				"weight"	"500"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Italic"
@@ -553,10 +582,10 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana Italic" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
+				"tall"		"28"
 				"weight"	"500"
 				"italic"	"1"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -565,9 +594,9 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
+				"tall"		"28"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -576,10 +605,10 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana Bold Italic" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
+				"tall"		"28"
 				"weight"	"900"
 				"italic"	"1"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -588,11 +617,10 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana" [$OSX]
-				"tall"		"16" [!$OSX]
-				"tall"		"14" [$OSX]
-				"tall_hidef"	"24"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 		// this is the symbol font
@@ -601,7 +629,7 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"14"
+				"tall"		"18"
 				"weight"	"0"
 				"symbol"	"1"
 			}
@@ -611,7 +639,7 @@ Scheme
 			"1"
 			{
 				"name"		"Trebuchet MS"
-				"tall"		"24"
+				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -623,7 +651,7 @@ Scheme
 			"1"
 			{
 				"name"		"Trebuchet MS"
-				"tall"		"18"
+				"tall"		"22"
 				"weight"	"900"
 			}
 		}
@@ -631,9 +659,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "HL2EP2"
-				"tall"			"34"
-				"tall_hidef"	"48"
+				"name"  "HalfLife2"
+				"tall"			"32"
+				"tall_hidef"	"46"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"
@@ -645,7 +673,19 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"128"
+				"tall"		"34"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		CreditsIcons
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"34"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -661,9 +701,30 @@ Scheme
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
+				"yres"	"480 899"
+			}
+			"2"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"12"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"1"
 			}
 		}
 		CreditsOutroLogos
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"34"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		CreditsOutroValve
 		{
 			"1"
 			{
@@ -681,7 +742,7 @@ Scheme
 			{
 				"name"		"Verdana" [!$OSX]
 				"name"		"Courier Bold" [$OSX]
-				"tall"		"9"
+				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
 			}
@@ -693,7 +754,7 @@ Scheme
 			{
 				"name"		"Trebuchet MS" [!$OSX]
 				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
+				"tall"		"24"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -793,7 +854,6 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
-		"3"	"resource/HL2EP2.ttf"		
 	}
 
 }

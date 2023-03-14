@@ -1,0 +1,16 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\Tau/tau_diff"
+	"$bumpmap" 	"models\weapons\Tau/tau_normal"
+	"$roughness"	"models/weapons/Tau/tau_Rough"
+	"$metallic"	"models/weapons/Tau/tau_Metal"
+	"$ao"		"models/weapons/Tau/tau_AO"	
+	"$emissive"	"models/weapons/Tau/tau_e"	
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+//	"$envmaptint" "{ 4 7 9 }"
+	"$pbr" "1"
+	"$alphatest" "1"
+}

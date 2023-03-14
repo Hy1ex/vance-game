@@ -1,6 +1,6 @@
 "Logitech G-15 Keyboard Layout"
 {
-	"game"		"Half-Life 2: Episode 1"
+	"game"		"Half-Life 2"
 	"chatlines"	"8"  // number of chat lines to keep (1-64)
 	
 	// These need to be 1bpp HICONs
@@ -37,7 +37,7 @@
 			"x"			"34"
 			"y"			"10"
 			"w"			"120"
-			"text"		"Half-Life 2:"
+			"text"		"Half-Life 2"
 		}
 			
 		"static_text"
@@ -47,7 +47,7 @@
 			"x"			"34"
 			"y"			"25"
 			"w"			"120"
-			"text"		"Episode 1"
+			"text"		 " "
 		}
 			
 //		"icon"
@@ -88,6 +88,95 @@
 			"y"			"30"
 			"w"			"150"
 			"text"		"(weapon_print_name):  - (ammo_primary) -"
+		}
+	}
+	
+	// Chat
+	"page"   
+	{
+		"requiresplayer"	"1"
+		
+		"static_text"
+		{
+			"size"		"small"
+			"align"		"left"
+			"x"			"0"
+			"y"			"0"
+			"w"			"160"
+			"text"		"chat_1"
+		}
+		
+		"static_text"
+		{
+			"size"		"small"
+			"align"		"left"
+			"x"			"0"
+			"y"			"10"
+			"w"			"160"
+			"text"		"chat_2"
+		}
+		
+		"static_text"
+		{
+			"size"		"small"
+			"align"		"left"
+			"x"			"0"
+			"y"			"20"
+			"w"			"160"
+			"text"		"chat_3"
+		}
+		
+		"static_text"
+		{
+			"size"		"small"
+			"align"		"left"
+			"x"			"0"
+			"y"			"30"
+			"w"			"160"
+			"text"		"chat_4"
+		}
+		
+		// Insert a new subpage
+		"newsubpage"	"1"
+		
+	"static_text"
+		{
+			"size"		"small"
+			"align"		"left"
+			"x"			"0"
+			"y"			"0"
+			"w"			"160"
+			"text"		"chat_5"
+		}
+		
+		"static_text"
+		{
+			"size"		"small"
+			"align"		"left"
+			"x"			"0"
+			"y"			"10"
+			"w"			"160"
+			"text"		"chat_6"
+		}
+		
+		"static_text"
+		{
+			"size"		"small"
+			"align"		"left"
+			"x"			"0"
+			"y"			"20"
+			"w"			"160"
+			"text"		"chat_7"
+		}
+		
+		"static_text"
+		{
+			"size"		"small"
+			"align"		"left"
+			"x"			"0"
+			"y"			"30"
+			"w"			"160"
+			"text"		"chat_8"
 		}
 	}
 }

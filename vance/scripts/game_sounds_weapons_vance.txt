@@ -143,6 +143,52 @@
 	"wave"			"weapons/rpg/rpg_reload.wav"
 }
 
+"Weapon_Gauss.Single"
+{
+    "channel"        "CHAN_AUTO"
+    "volume"        "1.0"
+    "pitch"            "100"
+    "soundlevel"    "SNDLVL_GUNFIRE"
+
+    "rndwave"
+    {
+        "wave"            "gauss/fire1.wav"
+    }
+}
+
+"Weapon_Gauss.Special1"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "1.0"
+    "pitch"            "100"
+    "soundlevel"    "SNDLVL_GUNFIRE"
+
+    "rndwave"
+    {
+        "wave"            "gauss/electro4.wav"
+	  "wave"            "gauss/electro5.wav"
+	  "wave"            "gauss/electro6.wav"
+
+    }
+}
+
+"Weapon_Gauss.Special2"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "1.0"
+    "pitch"            "100"
+    "soundlevel"    "SNDLVL_GUNFIRE"
+
+    "rndwave"
+    {
+        "wave"            "gauss/electro4.wav"
+	  "wave"            "gauss/electro5.wav"
+	  "wave"            "gauss/electro6.wav"
+
+    }
+}
+
+
 "Weapon_Resistancegun.Single"
 {
     "channel"        "CHAN_AUTO"
