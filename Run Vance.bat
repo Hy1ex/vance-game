@@ -1,1 +1,1 @@
-start hl2.exe -game vance -windowed -noborder -w 1920 -h 1080 -gamepadui
+start hl2.exe -game vance -windowed -noborder -w 1920 -h 1080
