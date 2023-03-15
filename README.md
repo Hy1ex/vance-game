@@ -6,4 +6,4 @@ GAMEPLAY:  The gameplay of Vance aims to be recognizable but distinguishable fro
 
 GRAPHICS:  Vance will make use of modern graphical and shader systems to both enhance the visuals, as well as provide more options for real-time environmental changes. Physically Based Rendering, Cascaded Shadow Mapping, Ambient Occlusion, Deferred rendering, Path Tracing, and other new additions are all changes in how Vance renders the world. Most of these things will be dynamic and directly controlled by the level designers. SOUND Vance will utilize a modular soundtrack, with industrial and techno elements and rhythms inspired by the original Half-Life. This soundtrack system will allow our level designers to create their own mix for individual levels, tailoring the pieces of the music to fit any particular level's setting or theme.
 
-Credits: AdV Software & QsadeSoft
+CREDITS: AdV Software & QsadeSoft.
