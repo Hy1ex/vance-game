@@ -298,10 +298,28 @@
 [
 	input Assault(string) : "Start an assault. Parameter passed in should be the name of the rally point."
 
-	model(choices) : "Model" : "models/Elite_Cop_s.mdl" : "Combat version (uses Soldier animations)" = 
+	tacticalvariant(choices) : "Tactical Variant" : "0" =
 	[
-		"models/Elite_Cop_s.mdl" : "Combat version (uses Soldier animations)"
-		"models/Elite_Cop_p.mdl" : "Scripted version (uses Metropolice animations)"
+		"0" : "Normal Tactics"
+		"1" : "Pressure the enemy (Keep advancing)"
+		"2" : "Pressure until within 30ft, then normal"
+	]	
+
+]
+
+@NPCClass base(BaseNPC) studio("models/bullsquid.mdl") = npc_bullsquid : "Bullsquid"
+[
+]
+
+@NPCClass base(BaseCombine) studio("models/fassassin/fassassin.mdl") = npc_assassin : "Combine Female Assassin"
+[
+	input Assault(string) : "Start an assault. Parameter passed in should be the name of the rally point."
+
+	model(choices) : "Model" : "models/combine_soldier.mdl" : "Regular Soldier" = 
+	[
+		"models/combine_soldier.mdl" : "Regular Soldier"
+		"models/combine_soldier_prisonguard.mdl" : "Nova Prospekt Soldier"
+		"models/combine_super_soldier.mdl" : "Elite Soldier"
 	]
 
 	tacticalvariant(choices) : "Tactical Variant" : "0" =
@@ -316,12 +334,6 @@
 		"0" : "No"
 		"2" : "Yes"
 	]
-	
-
-]
-
-@NPCClass base(BaseNPC) studio("models/bullsquid.mdl") = npc_bullsquid : "Bullsquid"
-[
 ]
 
 @PointClass base(Item) studio("models/healthvial.mdl") = item_stim : "Stimulant" []
