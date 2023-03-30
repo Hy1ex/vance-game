@@ -1,0 +1,18 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\player/Harness_Diff"
+	"$bumpmap" 	"models\player/Harness_N"
+
+	"$roughness"	"models/player/Harness_R"
+	"$metallic"	"models/player/Harness_M"
+	
+	"$ao"	"models/player/Harness_AO"
+
+	//"$blendTintByBaseAlpha"	"1"
+
+//metal
+	"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" "1"
+	//"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+}

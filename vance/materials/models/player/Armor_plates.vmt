@@ -1,0 +1,18 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\player/Armor_plates_Diff"
+	"$bumpmap" 	"models\player/Armor_plates_N"
+
+	"$roughness"	"models/player/Armor_plates_R"
+	"$metallic"	"models/player/Armor_plates_M"
+	
+	"$ao"	"models/player/Armor_plates_AO"
+
+	//"$blendTintByBaseAlpha"	"1"
+
+//metal
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" "1"
+	//"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+}

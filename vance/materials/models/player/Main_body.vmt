@@ -1,0 +1,18 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\player/Main_body_Diff"
+	"$bumpmap" 	"models\player/Main_body_N"
+
+	"$roughness"	"models/player/Main_body_R"
+	"$metallic"	"models/player/Main_body_M"
+	
+	"$ao"	"models/player/Main_body_AO"
+
+	//"$blendTintByBaseAlpha"	"1"
+
+//metal
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" "1"
+	//"$envmaptint" "[.01 .01 .01]"
+	"$pbr" "1"
+}
