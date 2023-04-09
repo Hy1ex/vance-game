@@ -62,6 +62,25 @@
 
 }
 
+"AlyxPlayer.KickDoor"
+{
+    "channel"        "CHAN_ITEM"
+    "volume"        "1.0"
+    "soundlevel"    "SNDLVL_105dB"
+    "pitch"            "98,102"
+
+    "wave"        "player/kick/kick_door.wav"
+}
+"AlyxPlayer.KickDoorLocked"
+{
+    "channel"        "CHAN_ITEM"
+    "volume"        "1.0"
+    "soundlevel"    "SNDLVL_105dB"
+    "pitch"            "98,102"
+
+    "wave"        "player/kick/kick_door_locked.wav"
+}
+
 "AlyxPlayer.KickFoley_suit"
 {
     "channel"        "CHAN_STATIC"
