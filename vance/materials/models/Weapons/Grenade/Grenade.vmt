@@ -1,0 +1,15 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\Grenade/g_diff"
+	"$bumpmap" 	"models\weapons\Grenade/g_normal"
+	"$roughness"	"models/weapons/Grenade/g_rough"
+	"$metallic"	"models/weapons/Grenade/g_metal"
+	"$ao"		"models/weapons/Grenade/g_ao"	
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.01 .01 .01]"
+//	"$envmaptint" "{ 4 7 9 }"
+	"$pbr" "1"
+	"$alphatest" "1"
+}

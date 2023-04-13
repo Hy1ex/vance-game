@@ -41,7 +41,7 @@
 //	SNDLVL_140dB	= 140,	// 0.2
 //	SNDLVL_150dB	= 150,	// 0.2
 
-"HL2Player.KickHit"
+"AlyxPlayer.KickHit"
 {
     "channel"        "CHAN_ITEM"
     "volume"        "1.0"
@@ -51,7 +51,7 @@
     "wave"        "player/kick/foot_kickwall.wav"
 }
 
-"HL2Player.KickMiss"
+"AlyxPlayer.KickMiss"
 {
     "channel"        "CHAN_ITEM"
     "volume"        "1.0"
