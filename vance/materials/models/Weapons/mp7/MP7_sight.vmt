@@ -1,0 +1,7 @@
+VertexLitPBR{
+	$baseTexture	models/weapons/mp7/mp7_Emissive
+	$emissive		models/weapons/mp7/mp7_Emissive
+	$roughness		models/weapons/mp7/mp7_Emissive
+	$additive		1
+	$pbr 1
+}
