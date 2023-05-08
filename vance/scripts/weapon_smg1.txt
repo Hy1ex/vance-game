@@ -23,6 +23,13 @@ WeaponData
 	"rpm"					"900"
 	
 
+		"CameraAttachment"
+	{
+		"Attachment"	"camera"
+		"Amount"	"2"
+	}
+
+
 	"Collision"
 	{
 		"Offset"	"-15 0 -20"
