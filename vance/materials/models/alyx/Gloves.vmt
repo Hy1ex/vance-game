@@ -1,0 +1,12 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\alyx/Gloves_d"
+	"$bumpmap" 	"models\alyx/Gloves_n"
+
+	"$roughness"	"models\alyx/Gloves_r"
+	"$metallic"	"models\alyx/Gloves_m"
+	"$ao"	 "models/alyx/Gloves_ao"
+	
+	"$pbr" "1"
+	"$envmap" "env_cubemap"
+}
