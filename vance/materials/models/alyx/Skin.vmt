@@ -4,7 +4,6 @@
 	"$bumpmap" 	"models\alyx/Skin_n"
 
 	"$roughness"	"models\alyx/Skin_r"
-	"$metallic"	"models\alyx/Skin_m"
 	"$ao"	 "models/alyx/Skin_ao"
 	
 	"$pbr" "1"

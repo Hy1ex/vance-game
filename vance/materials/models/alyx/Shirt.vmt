@@ -4,7 +4,6 @@
 	"$bumpmap" 	"models\alyx/Shirt_n"
 
 	"$roughness"	"models\alyx/Shirt_r"
-	"$metallic"	"models\alyx/Shirt_m"
 	"$ao"	 "models/alyx/Shirt_ao"
 	
 	"$pbr" "1"
