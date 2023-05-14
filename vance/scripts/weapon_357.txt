@@ -21,12 +21,6 @@ WeaponData
 	"rumble"		"2"
 	"item_flags"		"0"
 
-	"CameraAttachment"
-	{
-		"Attachment"	"muzzle"
-		Amount		"0.3"
-	}
-	
 	"IronsightOffset"	"0 -2 1"
 
 	"Collision"
