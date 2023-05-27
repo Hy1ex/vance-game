@@ -120,6 +120,20 @@
 	}
 }
 
+"Player.Helmet"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/headshot1.wav"
+		"wave"	"player/headshot2.wav"
+
+	}
+}
+
 "AlyxPlayer.PainHeavy"
 {
 	"channel"	"CHAN_VOICE"

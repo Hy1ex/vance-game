@@ -175,7 +175,6 @@
 
 	"rndwave"
 	{
-		"wave"		"player/pl_fallpain1.wav"
 		"wave"		"player/pl_fallpain3.wav"
 	}
 }
