@@ -36,3 +36,9 @@ whitelist.cfg
 bin/hammerplusplus/hammerplusplus_keybindings.cfg
 bin/hammerplusplus/hammerplusplus_vgui.vdf
 *.vmf_autosave
+vance/maps/vance_demofinal_d.vmf
+vance/maps/va_outercanal_01_test.vmx
+vance/maps/va_outercanal_01_test.vmf
+vance/maps/va_outercanal_01_test.prt
+vance/maps/va_outercanal_01_test.bsp
+vance/maps/graphs/va_outercanal_01_test.ain
