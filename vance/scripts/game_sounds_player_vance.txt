@@ -222,3 +222,27 @@
 		"wave"	"player/pl_land5.wav"
 	}
 }
+
+"AlyxPlayer.Slide_default_start"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/slide/slide_default_start_01.wav"
+	}
+}
+
+"AlyxPlayer.Slide_default_end"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/slide/slide_default_end_01.wav"
+	}
+}
