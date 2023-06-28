@@ -23,21 +23,22 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		"FgColor"			"255 220 0 100"
-		"BgColor"			"0 0 0 76"
-
-		"Panel.FgColor"			"255 220 0 100"
-		"Panel.BgColor"			"0 0 0 76"
+		"FgColor"			"255 139 139 100"
+		"FgColor_vrmode"	"200 0 0 100"
+		"BgColor"			"33 0 0 90"
+		"AchievementMessageBg"	"55 55 55 196"
+		"Panel.FgColor"			"200 0 0 255"
+		"Panel.BgColor"			"0 0 0 200"
 		
-		"BrightFg"		"255 220 0 255"
+		"BrightFg"		"200 0 0 110"
 
-		"DamagedBg"			"180 0 0 200"
-		"DamagedFg"			"180 0 0 230"
-		"BrightDamagedFg"		"255 0 0 255"
+		"DamagedBg" "255 225 225 200"
+		"DamagedFg" "255 225 225 230"
+		"BrightDamagedFg" "255 225 255 255"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"255 220 0 255"
-		"SelectionTextFg"		"255 220 0 255"
+		"SelectionNumberFg"		"255 136 139 255"
+		"SelectionTextFg"		"255 136 139 255"
 		"SelectionEmptyBoxBg" 	"0 0 0 80"
 		"SelectionBoxBg" 		"0 0 0 80"
 		"SelectionSelectedBoxBg" "0 0 0 80"
@@ -402,7 +403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"HalfLife2"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
