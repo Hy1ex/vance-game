@@ -95,11 +95,25 @@
 "AlyxPlayer.KickFoley_nosuit"
 {
     "channel"        "CHAN_STATIC"
-    "volume"        "1.0"
+    "volume"        "0.9"
     "soundlevel"    "SNDLVL_105dB"
     "pitch"            "98,102"
 
     "wave"        "player/kick/kick_foley_nosuit.wav"
+
+}
+
+"AlyxPlayer.VaultFoley"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "0.6"
+    "soundlevel"    "SNDLVL_105dB"
+    "pitch"            "98,102"
+
+    "wave"        "player/vault/vault_foley1.wav"
+    "wave"        "player/vault/vault_foley2.wav"
+    "wave"        "player/vault/vault_foley3.wav"
+    "wave"        "player/vault/vault_foley4.wav"
 
 }
 
