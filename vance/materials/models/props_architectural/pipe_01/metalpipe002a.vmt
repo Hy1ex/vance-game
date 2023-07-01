@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmap
+	"$basetexture" "models/props_architectural/pipe_01/metalpipe002a"
+	"$surfaceprop" "metal"
+	"%keywords" "c17industrial"
+}

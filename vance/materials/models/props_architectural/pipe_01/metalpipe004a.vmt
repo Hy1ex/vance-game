@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props_architectural/pipe_01/metalpipe004a"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+	"%keywords" "c17industrial"
+	"$basealphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" .1
+	"$envmaptint" "[ 0.5 0.5 0.5 ]"
+}

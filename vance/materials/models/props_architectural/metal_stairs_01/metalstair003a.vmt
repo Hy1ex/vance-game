@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/metalstair003a"
+	"$surfaceprop" "metal"
+	"%keywords" "c17downtown"
+	"$bumpmap" "metal/metalstair003a_normal"
+}
