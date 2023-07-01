@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	$basetexture				"models/props_wasteland/cargo_container_interior"
+	$bumpmap					"models/props_wasteland/cargo_container01_normal"
+	
+	$surfaceprop				"metal"
+	
+	$detail						"detail/metal_detail_01"
+	$detailscale				12
+	$detailblendfactor			0.7
+}
