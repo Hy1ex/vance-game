@@ -3761,6 +3761,7 @@
 	health(integer) : "Health (0 = Unbreakable)" : 0			// NEEDHELP: Doesn't look like this is hooked up anymore?
 	soundlockedoverride(sound) : "Locked Sound" : : "Sound played when the player tries to open the door, and fails because it's locked."
 	soundunlockedoverride(sound) : "Unlocked Sound" : : "Sound played when the door is unlocked."
+	canbekickedopen(integer) : "Kickable" : 1 : "Can the player kick down the door?" 
 
 	forceclosed(choices) : "Force Closed" : 0 : "If set, this door will close no matter what. Useful for doors that have to close even if the player tries to block them with objects." =
 	[
