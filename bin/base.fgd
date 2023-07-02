@@ -6450,48 +6450,85 @@
 ]
 
 // lightprop("models/editor/spot.mdl") <---- use this once the orientation is unfucked
-@PointClass base(Targetname, Parentname, Angles) size(-2 -2 -2, 2 2 2) frustum(lightfov,nearz,farz,lightcolor,-1) = env_projectedtexture : 
+@PointClass base(Targetname, Parentname, Angles) studio("models/editor/cone_helper.mdl") frustum(lightfov,nearz,farz,lightcolor,-1) = env_projectedtexture : 
 	"Projected texture entity."
 [
 	spawnflags(flags) =
 	[
-		1  : "Enabled"				: 1
+		1  : "Enabled"							: 1
+		2  : "Always Update (moving light)"		: 0
 	]
-
+	
 	target(target_destination)	: "target" : : "target"	
+	
+	lightcolor(color255)		: "Light Color" : "255 255 255 2000" : "Light Color RGB-Intensity"
+	constant(integer)			: "Constant" : 0
+	linear(integer)				: "Linear" : 0
+	quadratic(integer)			: "Quadratic" : 2500 // raise to 10000 or something when you get proper light color working
+
 	lightfov(float)				: "FOV" : "90.0" : "FOV"
 	nearz(float)				: "NearZ" : "4.0" : "Near Z for projected texture"
-	farz(float)					: "FarZ" : "750.0" : "Far Z for projected texture"	
+	farz(float)					: "FarZ" : "750.0" : "Far Z for projected texture"
 	
-	enableshadows(Choices) : "Enable Shadows" : 0 : "Enables/disables shadows from this projected texture." =
+	enableshadows(Choices) : "Enable Shadows" : 1 : "Enables/disables shadows from this projected texture." =
 	[
 		0 : "No"
 		1 : "Yes"
 	]
+
+	static(Choices) : "Is Static" : 0 : "Enables/disables Baked Radiosity from this projected texture" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
 	shadowquality(Choices) : "Shadow Quality" : 1 : "Quality of shadows." =
 	[
 		0 : "Low"
 		1 : "High"
 	]
+	
 	lightonlytarget(Choices) : "Light Only Target" : 0 : "Limit flashlight effect to only effect target entity." =
 	[
 		0 : "No"
 		1 : "Yes"
 	]
+	
 	lightworld(Choices) : "Light World" : 1 : "Control whether flashlight effects static world geometry." =
 	[
 		0 : "No"
 		1 : "Yes"
 	]
-	lightcolor(color255)		: "Light Color" : "255 255 255 200" : "Light Color RGB-Intensity"
-	cameraspace(integer)		: "Camera Space" : 0 : "Angles are interpreted as being relative to camera."
 
+	enablevolumetrics(Choices) : "Enable Volumetrics" : 0 : "Control whether flashlight has volumetric light shafts." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	volumetricsmultiplier(float): "Volumetrics Intensity" : "1.0" : "Volumetric light intensity multiplier"	
+	
+	//brightnessscale(float)		: "Brightness Scale" : "1.0" : "Scale the light color by this brightness"	
+	
+	//colortransitiontime(float)	: "Color Transition Time" : "0.5" : "Amount of time it takes for a color change to occur."
+	cameraspace(integer)		: "Camera Space" : 0 : "Angles are interpreted as being relative to camera."
+	
+	texturename(material) : "Texture Name" : "effects/flashlight001"
+	
 	// Inputs
 	input TurnOn(void)		: "Turn on the texture"
 	input TurnOff(void)		: "Turn off the texture"
+	input AlwaysUpdateOn(void)	: "Turn on per frame updating (for moving lights)"
+	input AlwaysUpdateOff(void)	: "Turn off per frame updating (for moving lights)"
 	input SetFOV(float)		: "Set FOV"
+	input SpotlightTexture(string)		: "Set the spotlight texture"
+	input EnableShadows(bool)		: "Set the if shadows are enabled"
+	//input LightColor(color255)		: "Change the light color/brightness"
+	//input BrightnessScale(float)	: "Set BrightnessScale"
+	
+	//input EnableVolumetrics(void)	: "Enable Volumetrics"
+	//input DisableVolumetrics(void)	: "Disable Volumetrics"
 ]
-
 
 @SolidClass base(func_brush) = func_reflective_glass :
 	"Used to produce perfectly reflective glass that renders world + entities. " +
