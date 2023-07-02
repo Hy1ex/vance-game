@@ -168,7 +168,7 @@
 "AlyxPlayer.Sprint"
 {
 	"channel"	"CHAN_VOICE"
-	"volume"	"0.08"
+	"volume"	"0.04"
 	"soundlevel"  "SNDLVL_75dB"
 
 
@@ -179,7 +179,7 @@
 "AlyxPlayer.SprintPain"
 {
 	"channel"	"CHAN_VOICE"
-	"volume"	"0.2"
+	"volume"	"0.1"
 	"soundlevel"  "SNDLVL_75dB"
 
 	"wave"	"player/sprint01.wav"
