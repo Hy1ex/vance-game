@@ -63,27 +63,6 @@
 		"Default"		"0"
 		"SubTabPosition"		"3"
 	}
-	"Skill4Radio"
-	{
-		"ControlName"		"RadioButton"
-		"fieldName"		"Skill4Radio"
-		"xpos"		"34"
-		"ypos"		"235"
-		"wide"		"140"
-		"tall"		"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"1"
-		"labelText"		"#GameUI_SkillDiabolical"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"SubTabPosition"		"4"
-	}
 	"Label1"
 	{
 		"ControlName"		"Label"
