@@ -160,23 +160,4 @@
 		"brighttext"		"0"
 		"wrap"		"1"
 	}
-	"Label5"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"Label4"
-		"xpos"		"60"
-		"ypos"		"257"
-		"wide"		"380"
-		"tall"		"36"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#GameUI_DiabolicalDescription"
-		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"1"
-	}
 }
