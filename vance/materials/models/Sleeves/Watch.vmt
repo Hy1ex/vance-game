@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\Sleeves/watch_diff"
+	"$bumpmap" 	"models\Sleeves/watch_n"
+
+	"$roughness"	"models/Sleeves/watch_rough"
+	"$metallic"	"models/Sleeves/watch_metal"
+
+	"$blendTintByBaseAlpha"	"1"
+	
+	"$pbr" "1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}
