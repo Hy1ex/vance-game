@@ -1,10 +1,11 @@
-"VertexLitGeneric"
+"VertexLitPBR"
 {
 	"$baseTexture"	"models\Sleeves/watch_diff"
 	"$bumpmap" 	"models\Sleeves/watch_n"
 
 	"$roughness"	"models/Sleeves/watch_rough"
 	"$metallic"	"models/Sleeves/watch_metal"
+	"$ao"		"models/Sleeves/watch_ao"
 
 	"$blendTintByBaseAlpha"	"1"
 	
