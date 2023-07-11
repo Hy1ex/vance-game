@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "PBR/tile_black_white"
+	"$bumpmap" "PBR/tile_black_white_normal"
+	"$roughness" "PBR/tile_black_white_roughness"
+	"$surfaceprop" "tile"
+	"$envmap" "env_cubemap"
+}
