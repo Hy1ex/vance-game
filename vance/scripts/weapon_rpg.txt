@@ -25,11 +25,21 @@ WeaponData
 	"weight"				"0"
 	"item_flags"			"2"
 
-	"CameraAttachment"
+		"CameraAttachment"
 	{
-		"Attachment"	"muzzle"
-		Amount		"0.1"
+		"Attachment"	"camera"
+		"Amount"	"3"
 	}
+
+
+	"Collision"
+	{
+		"Offset"	"-15 0 -20"
+		"Rotation"	"-90 0 0"
+		"Length"	"27"
+	}
+
+	"hasfirstdrawanim"		"1"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
