@@ -164,10 +164,28 @@
 	}
 }
 
+"AlyxPlayer.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/pl_pain1.wav"
+		"wave"	"player/pl_pain2.wav"
+		"wave"	"player/pl_pain3.wav"
+		"wave"	"player/pl_pain4.wav"
+		"wave"	"player/pl_pain5.wav"
+		"wave"	"player/pl_pain6.wav"
+		"wave"	"player/pl_pain7.wav"
+		"wave"	"player/pl_pain8.wav"
+	}
+}
 
 "AlyxPlayer.Sprint"
 {
-	"channel"	"CHAN_VOICE"
+	"channel"	"CHAN_ITEM"
 	"volume"	"0.04"
 	"soundlevel"  "SNDLVL_75dB"
 
@@ -178,7 +196,7 @@
 
 "AlyxPlayer.SprintPain"
 {
-	"channel"	"CHAN_VOICE"
+	"channel"	"CHAN_ITEM"
 	"volume"	"0.1"
 	"soundlevel"  "SNDLVL_75dB"
 

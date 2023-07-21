@@ -4,6 +4,7 @@
 	"$bumpmap" 	"models\Weapons\RPG\RPG_Normal"
 	"$roughness" 	"models\Weapons\RPG\RPG_Rough"
 	"$metallic" 	"models\Weapons\RPG\RPG_Metal"
+	"$ao" 		"models\Weapons\RPG\RPG_AO"
 	"$pbr" "1"
 
 	"$blendTintByBaseAlpha"	"1"

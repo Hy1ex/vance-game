@@ -93,6 +93,49 @@
 	}
 }
 
+"Weapon_Shitgun.Single"
+{
+	"channel"			"CHAN_AUTO"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"		"SNDLVL_GUNFIRE"
+	
+	"rndwave"
+	{
+		"wave"			"weapons/shitgun/shotgun_fire7.wav"
+		"wave"			"weapons/shitgun/shotgun_fire62.wav"
+		"wave"			"weapons/shitgun/shotgun_fire72.wav"
+	}
+}
+
+"Weapon_Shitgun.Double"
+{
+	"channel"			"CHAN_AUTO"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"		"SNDLVL_GUNFIRE"
+	
+	"rndwave"
+	{
+		"wave"			"weapons/shitgun/shotgun_dbl_fire72.wav"
+		"wave"			"weapons/shitgun/shotgun_dbl_fire7.wav"
+		"wave"			"weapons/shitgun/shotgun_dbl_fire2.wav"
+	}
+}
+
+"Weapon_Shitgun.Special1"
+{
+	"channel"			"CHAN_ITEM"
+	"volume"			"VOL_NORM"
+	"pitch"				"PITCH_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	
+	"rndwave"
+	{
+		"wave"			"weapons/shitgun/shotgun_cock.wav"
+	}
+}
+
 "Weapon_Ana.Single"
 {
 	"channel"			"CHAN_AUTO"
@@ -131,6 +174,21 @@
 		"wave"			"weapons/shotgun/Shell_Insertion02.wav"
 		"wave"			"weapons/shotgun/Shell_Insertion03.wav"
 		"wave"			"weapons/shotgun/Shell_Insertion04.wav"
+	}
+}
+
+"Weapon_Shitgun.Reload"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"			"weapons/shitgun/shotgun_reload1.wav"
+		"wave"			"weapons/shitgun/shotgun_reload2.wav"
+		"wave"			"weapons/shitgun/shotgun_reload3.wav"
 	}
 }
 

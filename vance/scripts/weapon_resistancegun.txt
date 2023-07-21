@@ -21,7 +21,7 @@ WeaponData
 	"weight"				"2"
 	"item_flags"			"0"
 	
-	"rpm"					"360"
+	"rpm"					"400"
 
 	"CameraAttachment"
 	{
@@ -34,7 +34,7 @@ WeaponData
 	{
 		"Offset"		"0 0 -20"
 		"Rotation"		"-90 0 0"
-		"Length"		"24"
+		"Length"		"22"
 	}
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
