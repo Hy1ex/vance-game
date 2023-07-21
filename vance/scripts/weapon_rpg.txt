@@ -36,7 +36,7 @@ WeaponData
 	{
 		"Offset"	"-15 0 -20"
 		"Rotation"	"-90 0 0"
-		"Length"	"27"
+		"Length"	"34"
 	}
 
 	"hasfirstdrawanim"		"1"
