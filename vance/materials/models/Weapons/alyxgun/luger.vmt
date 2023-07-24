@@ -4,6 +4,7 @@
 	"$bumpmap" 	"models\Weapons\alyxgun\Mag_Normal"
 	"$roughness" 	"models\Weapons\alyxgun\Mag_Rough"
 	"$metallic" 	"models\Weapons\alyxgun\Mag_Metal"
+	"$ao"		"models\Weapons\alyxgun\Mag_AO"
 
 //metal
 	"$envmap" "env_cubemap"
