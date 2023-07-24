@@ -1,6 +1,7 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "concrete_pbr/concretefloor01a_pbr"
+	"$surfaceprop "concrete"
 	"$bumpmap" "concrete_pbr/concretefloor01a_pbr_normal"
 	"$roughness" "concrete_pbr/concretefloor01a_pbr_rough"
 }
