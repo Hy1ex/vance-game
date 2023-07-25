@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:99245b1ecc74a3a0ca12606f2454753f1dbf61bc2d1dbab082746a07b04b89c8
-size 278
+@echo off
+:: Batch file to launch Faceposer with proper environment
+
+:: Confirm VPROJECT variable is set
+call "%~d0%~p0check_sdk_env.bat"
+
+:: Launch Faceposer
+echo Starting Faceposer...
+echo Executing "%~d0%~p0hlfaceposer.exe" %*
+start "" "%~d0%~p0hlfaceposer.exe" %*

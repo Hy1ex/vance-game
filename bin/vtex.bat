@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ea744b61393479b6cf9099cd05de17e01ef216ab10703dfb5d9a178ca869881
-size 240
+@echo off
+:: Batch file to launch vtex with proper environment
+
+:: Confirm VPROJECT variable is set
+call "%~d0%~p0check_sdk_env.bat"
+
+echo Executing: "%~d0%~p0vtex.exe" -game "%VPROJECT%" %*
+"%~d0%~p0vtex.exe" -game "%VPROJECT%" %*

@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:63e6b7e04a1b26357a501c6db4f25f9c10d7b1c652981891272520713552463a
-size 441
+@echo off
+echo Configuring Source SDK environment variables for Half-Life 2
+
+:: Set local environment variable that will only persist in processes
+:: created by the current command processor shell
+SET VPROJECT=%~d0%~p0..\hl2
+
+:: Commentthis out if you ant to set it permanently as a system variable,
+:: too
+:: echo Attempding to set VPROJECT in system environment
+:: SETX VPROJECT %VPROJECT%
+:: echo.
+echo VPROJECT=%VPROJECT%

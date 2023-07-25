@@ -1494,6 +1494,30 @@
 	"wave"		"common/null.wav"
 }
 
+"csgo_Knife.Deploy"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.4"
+	"soundlevel"	"65"
+	"wave"			"weapons/knife/knife_deploy1.wav"
+}
+
+"csgo_Weapon.WeaponMove1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.15"
+	"soundlevel"	"65"
+	"wave"			"weapons/knife/movement1.wav"
+}
+
+"csgo_Weapon.WeaponMove3"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.15"
+	"soundlevel"	"65"
+	"wave"			"weapons/knife/movement3.wav"
+}
+
 // **************
 // BASE CHARACTER
 

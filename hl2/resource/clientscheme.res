@@ -69,6 +69,11 @@ Scheme
 
 		// Blank space to leave beneath the menu on the main screen
 		"Main.BottomBorder"	"32"
+
+		// Deck colors
+		"SteamDeckLoadingBar"			"250 128 20 255"
+		"SteamDeckSpinner"				"201 100 0 255"
+		"SteamDeckLoadingText"			"181 179 175 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -104,7 +109,7 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"10"
+				"tall"		"14"
 				"weight"	"400"
 				"antialias" "1"
 			}
@@ -113,18 +118,28 @@ Scheme
 		// if a font fails to load then the subsequent fonts will replace
 		Default
 		{
-			"1"
+			"1"	[$X360]
 			{
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
 				"antialias" "1"
-				"yres"	"480 599"
+			}
+			"1"	[$WIN32]
+			{
+				"name"		"Verdana"
+				"tall"		"16" [$DECK]
+				"tall"		"9"
+				"weight"	"700"
+				"antialias" "1"
+				"yres"	"1 599"
 			}
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"22" [$DECK]
+				"tall"		"12" [!$LINUX]
+				"tall"		"16" [$LINUX]
 				"weight"	"700"
 				"antialias" "1"
 				"yres"	"600 767"
@@ -132,7 +147,9 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"19"
+				"tall"		"26" [$DECK]
+				"tall"		"14" [!$LINUX]
+				"tall"		"19" [$LINUX]
 				"weight"	"900"
 				"antialias" "1"
 				"yres"	"768 1023"
@@ -140,7 +157,9 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"30" [$DECK]
+				"tall"		"20" [!$LINUX]
+				"tall"		"24" [$LINUX]
 				"weight"	"900"
 				"antialias" "1"
 				"yres"	"1024 1199"
@@ -148,7 +167,9 @@ Scheme
 			"5" // Proportional - Josh
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"14" [$DECK]
+				"tall"		"9" [!$LINUX]
+				"tall"		"11" [$LINUX]
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -159,7 +180,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -167,7 +188,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -175,7 +196,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"17"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -193,7 +214,7 @@ Scheme
 			"5" // Proportional - Josh
 			{
 				"name"		"Verdana"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"antialias"	"1"
@@ -201,7 +222,7 @@ Scheme
 			"6"
 			{
 				"name"		"Arial"
-				"tall"		"10"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -211,7 +232,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"8"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -219,7 +240,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -227,7 +248,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"15"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -236,7 +257,7 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"18"
+				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -245,7 +266,7 @@ Scheme
 			"5"  // Proportional - Josh
 			{
 				"name"		"Verdana"
-				"tall"		"9"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
@@ -253,14 +274,14 @@ Scheme
 			"6"
 			{
 				"name"		"Verdana"
-				"tall"		"9"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
 			"7"
 			{
 				"name"		"Arial"
-				"tall"		"9"
+				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -270,7 +291,8 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"70"
+				"tall"		"70" [$DECK]
+				"tall"		"64"
 				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
@@ -283,7 +305,8 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"70"
+				"tall"		"70" [$DECK]
+				"tall"		"64"
 				"tall_hidef"	"58"
 				"weight"	"0"
 				"antialias" "1"
@@ -298,7 +321,8 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"36"
+				"tall"		"36" [$DECK]
+				"tall"		"32"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -322,25 +346,30 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"44"
+				"tall"		"40" [!$OSX]
+				"tall"		"41" [$OSX]
 				"weight"	"0"
 				"antialias" "0"
 				"additive"	"1"
 				"custom"	"1"
+				"yres"		"1 1599" [!$DECK]
+				"yres"		"1 1439" [$DECK]
 			}
 			"2"
 			{
 				"name"		"HalfLife2"
-				"tall"		"48"
+				"tall"		"80"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
+				"yres"		"1600 3199" [!$DECK]
+				"yres"		"1440 3199" [$DECK]
 			}
 			"3"
 			{
 				"name"		"HalfLife2"
-				"tall"		"64"
+				"tall"		"120"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -350,7 +379,7 @@ Scheme
 			"4"
 			{
 				"name"		"HalfLife2"
-				"tall"		"20"
+				"tall"		"17"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -371,11 +400,13 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"HL2cross"
-				"tall"		"40"
+				"tall"		"36" [$DECK]
+				"tall"		"28" [!$OSX]
+				"tall"		"50" [$OSX]
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
-				"custom"	"1"
+				"custom"	"1" [!$OSX]
 			}
 		}
 		HudNumbers
@@ -383,7 +414,8 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"40"
+				"tall"		"32"	[!$DECK]
+				"tall"		"40"	[$DECK]
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -407,7 +439,8 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"40"
+				"tall"		"32"	[!$DECK]
+				"tall"		"40"	[$DECK]
 				"weight"	"0"
 				"blur"		"4"
 				"scanlines" "2"
@@ -422,7 +455,8 @@ Scheme
 			{
 				"name"		"HalfLife2" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
-				"tall"		"26"
+				"tall"		"16"	[!$DECK]
+				"tall"		"26"	[$DECK]
 				"weight"	"1000"
 				"additive"	"1"
 				"antialias" "1"
@@ -434,7 +468,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"16" [$DECK] 
+				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
 				"additive"	"1"
@@ -453,7 +488,8 @@ Scheme
 			{
 				"name"		"Verdana" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
-				"tall"		"22"
+				"tall"		"22" [$DECK]
+				"tall"		"14"
 				"weight"	"1000"
 				"antialias" "1"
 				"additive"	"1"
@@ -465,7 +501,8 @@ Scheme
 			{
 				"name"		"Verdana" [!$OSX]
 				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
+				"tall"		"18" [$DECK]
+				"tall"		"11"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -484,7 +521,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"10"
+				"tall"		"10" [$DECK]
+				"tall"		"8"
 				"weight"	"700"
 				"antialias" "1"
 				"yres"	"1 599"
@@ -493,7 +531,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"14" [$DECK]
+				"tall"		"10"
 				"weight"	"700"
 				"antialias" "1"
 				"yres"	"600 767"
@@ -502,7 +541,9 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"18" [$DECK]
+				"tall"		"16" [$LINUX]
+				"tall"		"12"
 				"weight"	"900"
 				"antialias" "1"
 				"yres"	"768 1023"
@@ -511,7 +552,9 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"20"
+				"tall"		"22" [$DECK]
+				"tall"		"20" [$LINUX]
+				"tall"		"16"
 				"weight"	"900"
 				"antialias" "1"
 				"yres"	"1024 1199"
@@ -520,7 +563,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"8"
+				"tall"		"9" [$DECK]
+				"tall"		"8" [$LINUX]
+				"tall"		"7"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -571,7 +616,8 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana" [$OSX]
-				"tall"		"28"
+				"tall"		"15" [$DECK]
+				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
 			}
@@ -582,7 +628,8 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana Italic" [$OSX]
-				"tall"		"28"
+				"tall"		"15" [$DECK]
+				"tall"		"12"
 				"weight"	"500"
 				"italic"	"1"
 				"antialias"	"1"
@@ -594,7 +641,8 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
-				"tall"		"28"
+				"tall"		"15" [$DECK]
+				"tall"		"12"
 				"weight"	"900"
 				"antialias"	"1"
 			}
@@ -605,7 +653,8 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana Bold Italic" [$OSX]
-				"tall"		"28"
+				"tall"		"15" [$DECK]
+				"tall"		"12"
 				"weight"	"900"
 				"italic"	"1"
 				"antialias"	"1"
@@ -617,7 +666,8 @@ Scheme
 			{
 				"name"		"Tahoma" [!$OSX]
 				"name"		"Verdana" [$OSX]
-				"tall"		"24"
+				"tall"		"15" [$DECK]
+				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
@@ -629,7 +679,7 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"18"
+				"tall"		"14"
 				"weight"	"0"
 				"symbol"	"1"
 			}
@@ -639,7 +689,7 @@ Scheme
 			"1"
 			{
 				"name"		"Trebuchet MS"
-				"tall"		"28"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -651,7 +701,7 @@ Scheme
 			"1"
 			{
 				"name"		"Trebuchet MS"
-				"tall"		"22"
+				"tall"		"18"
 				"weight"	"900"
 			}
 		}
@@ -754,7 +804,7 @@ Scheme
 			{
 				"name"		"Trebuchet MS" [!$OSX]
 				"name"		"Helvetica" [$OSX]
-				"tall"		"24"
+				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -844,6 +894,15 @@ Scheme
 			}
 			
 		}
+		"SteamDeckLoadingText"
+		{
+			"7"
+			{
+				"name"		"Alte DIN 1451 Mittelschrift"
+				"tall"		"24"
+				"weight"	"800"
+			}
+		}
 	}
 
 	
@@ -854,6 +913,14 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
+		"4"		"resource/linux_fonts/DejaVuSans.ttf"
+		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"10"	"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"11"	"gamepadui/fonts/din1451alt.ttf"
 	}
 
 }

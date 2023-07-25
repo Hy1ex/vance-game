@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:376e0082701bdeb762efabded4b18a46110dd785cfea822592c0a81883a2e9c3
-size 244
+@echo off
+if "%VPROJECT%"=="" (
+	if exist "%~d0%~p0set_sdk_env.bat" (
+		call "%~d0%~p0set_sdk_env.bat"
+	) else (
+		echo WARNING: VPROJECT not set, and set_sdk_env.bat file not present.
+		pause
+	)
+) else (
+	echo VPROJECT=%VPROJECT%
+)

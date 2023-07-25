@@ -70,7 +70,7 @@
 			"ScaleY" "2"
 			"ScaleZ" "2"
 		}
-	"Jeep"
+		"Jeep"
 		{
 			"ScaleLow" "24"
 
@@ -84,8 +84,7 @@
 			"ScaleY" "0.045"
 			"ScaleZ" "0.02"
 		}
-
-	"Choreo"
+		"Choreo"
 		{
 			"ScaleLow" "7"
 
@@ -156,7 +155,7 @@
 					"chain" // clip insert
 					{
 
-						"msDelay" "500"
+						"msDelay" "700"
 						"msRamp" "100"
 						"msSustain" "2"
 						"msDecay" "5"
@@ -590,6 +589,7 @@
 					"group"	"movement"
 					"msRamp" "200"
 					"msSustain" "0"
+					"msDelay" "65"
 					"msDecay" "20"
 					"special" "NOISEENVELOPE8X"
 					"force"
@@ -736,37 +736,38 @@
 						"force"
 						{
 							"x" "-0.8"
-							"y" "-0.8"
+							"y" "-2"
 							"z" "0"
 						}
 
 					"chain" // clip fall
 					{
 
-						"special" "NOISEENVELOPE8X"
 						"msDelay" "270"
 						"msRamp" "2"
 						"msSustain" "10"
 						"msDecay" "30"
 						"force"
+						"special" "NOISEENVELOPE4X"
 						{
 							"x" "-0.3"
-							"y" "-0.8"
+							"y" "-0.5"
 							"z" "0"
 						}
 
 					"chain" // clip insert
 					{
 
-						"special" "NOISEENVELOPE4X"
 						"msDelay" "500"
 						"msRamp" "100"
 						"msSustain" "2"
 						"msDecay" "5"
+						"special" "NOISEENVELOPE4X"
+
 						"force"
 						{
 							"x" "0.3"
-							"y" "1.8"
+							"y" "1"
 							"z" "0"
 						}
 					"chain" // clip slap
@@ -806,7 +807,7 @@
 						{
 							"x" "0"
 							"y" "0"
-							"z" "2"
+							"z" "-2"
 						}
 					}
 					}
@@ -912,25 +913,26 @@
 						"msRamp" "5"
 						"msSustain" "50"
 						"msDecay" "1"
+						"special" "NOISEENVELOPE2X"
 						"force"
 						{
-							"x" "1"
+							"x" "0.65"
 							"y" "0.5"
-							"z" "1.75"
+							"z" "1"
 						}
 					"chain" // push bullets in
 					{
-						"msDelay" "2150"
-						"msRamp" "5"
-						"msSustain" "50"
-						"msDecay" "1"
+						"msDelay" "2100"
+						"msRamp" "30"
+						"msSustain" "60"
+						"msDecay" "30"
 						"special" "NOISEENVELOPE2X"
 
 						"force"
 						{
 							"x" "-1"
 							"y" "-0.5"
-							"z" "-2"
+							"z" "-2.5"
 						}
 					"chain" // large sway right
 					{
@@ -958,8 +960,8 @@
 						}
 					"chain" // revolver spin
 					{
-						"special" "NOISEENVELOPE2X"
-						"msDelay" "2900"
+						"special" "NOISEENVELOPE4X"
+						"msDelay" "2800"
 						"msRamp" "80"
 						"msSustain" "0"
 						"msDecay" "300"

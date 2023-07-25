@@ -1,3 +1,86 @@
 "UserConfigData"
 {
+	"resource"
+	{
+		"mdlpicker.res"
+		{
+			"FileBrowserSplitter"
+			{
+				"child0"
+				{
+					"AssetSplitter"
+					{
+						"child1"
+						{
+							"AssetBrowser"
+							{
+								"lastBarWidth"		"410"
+								"0_hidden"		"0"
+								"0_width"		"52"
+								"1_hidden"		"0"
+								"1_width"		"359"
+							}
+						}
+						"0_splitter_pos"		"258.000000"
+						"1_splitter_pos"		"516.000000"
+					}
+				}
+				"child1"
+				{
+					"PreviewSplitter"
+					{
+						"child1"
+						{
+							"ViewsSheet"
+							{
+								"SequencesPage"
+								{
+									"SequencesList"
+									{
+										"lastBarWidth"		"394"
+										"0_hidden"		"0"
+										"0_width"		"395"
+									}
+								}
+								"ActivitiesPage"
+								{
+									"ActivitiesList"
+									{
+										"lastBarWidth"		"0"
+										"0_hidden"		"0"
+										"0_width"		"52"
+									}
+								}
+								"SkinsPage"
+								{
+									"SkinsList"
+									{
+										"lastBarWidth"		"394"
+										"0_hidden"		"0"
+										"0_width"		"395"
+									}
+								}
+								"InfoPage"
+								{
+									"PropData"
+									{
+										"lastBarWidth"		"0"
+										"0_hidden"		"0"
+										"0_width"		"250"
+										"1_hidden"		"0"
+										"1_width"		"52"
+									}
+								}
+							}
+						}
+						"0_splitter_pos"		"258.000000"
+						"1_splitter_pos"		"516.000000"
+					}
+				}
+				"0_splitter_pos"		"441.000000"
+				"1_splitter_pos"		"882.000000"
+			}
+			"filter"		"crate"
+		}
+	}
 }

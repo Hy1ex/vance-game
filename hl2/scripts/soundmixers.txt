@@ -39,6 +39,7 @@
 	"Eli_Dialog"			"/eli_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
 	"Kleiner_Dialog"		"/kl_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
 	"Breen_Dialog"			"/br_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Mossman_Dialog"		"/mo_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
 	"Barney_Dialog"			"/ba_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
 	"Gman_Dialog"			"/gman_"			""			""				""			""			"60"		"0"		"1"		"100"	"20"
 	"Metrocop_Dialog"		"/mcop"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
@@ -53,16 +54,14 @@
 	"Player_Weapons"		"weapon"			"Player"	""				""			""			"50"		"0"		"1"		"100"	"40"
 	"Player"				"player/"			"Player"	""				""			""			"50"		"0"		"0"		"100"	"40"
 	"Player"				"physics/"			"Player"	""				""			""			"50"		"0"		"0"		"100"	"40"
-	"Physgun"				"weapons/phys"		""			""				""			""			"50"		"0"		"0"		"100"	"40"			
-
+			
 	"NPC_Voice"				""					"NPC"		"CHAN_VOICE"	""			""			"50"		"0"		"1"		"100"	"40"
 	"NPC_Weapons_Loud"		""					"NPC"		"CHAN_WEAPON"	"140"		""			"50"		"0"		"1"		"100"	"40"
 	"NPC_Weapons"			""					"NPC"		"CHAN_WEAPON"	""			""			"50"		"0"		"1"		"100"	"40"
 	"NPC_Body"				""					"NPC"		"CHAN_BODY"		""			""			"50"		"0"		"0"		"100"	"40"
 	"NPC_Looping"			""					"NPC"		"CHAN_STATIC"	""			""			"50"		"0"		"0"		"100"	"40"
 	"NPC"					""					"NPC"		""				""			""			"50"		"0"		"0"		"100"	"40"
-	"Zombies"				"zombie"			"NPC"		""				""			""			"50"		"0"		"0"		"100"   "40"
-
+	
 	"AHELI_WEAPON"			"aheli_weapon"		""			""				"140"		""			"50"		"0"		"1"		"100"	"40"
 	"GUNSHIP_WEAPON"		"gunship_weapon"	""			""				"140"		""			"50"		"0"		"1"		"100"	"40"
 	"STRIDER_WEAPON"		"strider_weapon"	""			""				"140"		""			"50"		"0"		"1"		"100"	"40"
@@ -96,10 +95,6 @@
 	"Combat"				"weapon"			""			""				"110"		""			"50"		"0"		"0"		"100"	"40"
 	"Combat"				"explo"				""			""				"110"		""			"50"		"0"		"0"		"100"	"40"
 	"Weapons"				"weapon"			""			""				"120"		""			"50"		"0"		"0"		"100"	"40"
-	"Footsteps"				"footstep"			""			""				""			""			"20"		"0"		"0"		"100"	"40"
-	"Footsteps"				"_step"				""			""				""			""			"20"		"0"		"0"		"100"	"40"
-	"Footsteps"				"foot"				""			""				""			""			"20"		"0"		"0"		"100"	"40"
-
 
 	"Quiet"					""					""			""				"0"			"70"		"50"		"0"		"0"		"100"	"40"
 	"Medium"				""					""			""				"71"		"90"		"50"		"0"		"0"		"100"	"40"
@@ -209,31 +204,6 @@
 	"Gman_Dialog"		"0.72"
 	"Music"				"0.81"
 	"All"				"0.01"
-}
-
-"Zombie_Dark_Tunnel"
-{
-
-//	group name				mix value
-//  --------				---------
-	"Explosions"			"0.90"
-	"Player_Weapons_Loud"	"1.0"
-	"Player_Suit"			"0.56"
-	"Weapons"				"0.79"
-
-	"AHELI_WEAPON"			"0.85"
-	"GUNSHIP_WEAPON"		"0.85"
-	"STRIDER_WEAPON"		"0.85"
-	"bullethit"				"0.67"
-	
-	"Music"					"0.81"
-
-	"Ambient"				"1.0"
-	"Footsteps"				"1.0"
-	"Physgun"				"0.6"
-	"Zombies"				"1.0"
-
-	"All"					"0.72"
 }
 
 // add new sound mixers here...ALWAYS use Default_Mix as a template.

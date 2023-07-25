@@ -482,38 +482,58 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"tall"		"12"
 				"weight"	"500"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana Italic" [$OSX]
+				"tall"		"12"
 				"weight"	"500"
 				"italic"	"1"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
+				"tall"		"12"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana Bold Italic" [$OSX]
+				"tall"		"12"
 				"weight"	"900"
 				"italic"	"1"
+				"antialias"	"1"
+			}
+		}
+		"CloseCaption_Small"
+		{
+			"1"
+			{
+				"name"		"Tahoma" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 
@@ -983,6 +1003,12 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-	
+		"4"		"resource/linux_fonts/DejaVuSans.ttf"
+		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 	}
 }
