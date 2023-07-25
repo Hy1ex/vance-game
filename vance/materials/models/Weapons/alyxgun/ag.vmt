@@ -5,7 +5,7 @@
 	"$roughness" 	"models\Weapons\alyxgun\Gun_Rough"
 	"$metallic" 	"models\Weapons\alyxgun\Gun_Metal"
 	"$ao"		"models\Weapons\alyxgun\Gun_AO"
-	//"$emissive"	"models\Weapons\alyxgun\Gun_E"
+	"$emissive"	"models\Weapons\alyxgun\Gun_E"
 
 
 	"$envmap" "env_cubemap"
