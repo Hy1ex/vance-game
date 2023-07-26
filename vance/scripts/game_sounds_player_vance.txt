@@ -278,3 +278,13 @@
 		"wave"	"player/slide/slide_default_end_01.wav"
 	}
 }
+"AlyxPlayer.InjectStim"
+{
+    "channel"        "CHAN_STATIC"
+    "volume"        "0.9"
+    "soundlevel"    "SNDLVL_105dB"
+    "pitch"            "98,102"
+
+    "wave"        "items/heal_stim.wav"
+
+}
