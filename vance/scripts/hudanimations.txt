@@ -41,18 +41,34 @@
 
 event LevelInit
 {
+
 }
+
+event WeaponUsesSecondaryAmmo
+{
+
+	Animate HudAmmoSecondary	FgColor		"BrightFg"	Linear	0.0		0.1
+	Animate HudAmmoSecondary	FgColor		"FgColor"		Linear	0.2		1.5
+	Animate HudAmmoSecondary	BgColor		"BgColor" 	Linear	0.0		0.1
+	Animate HudAmmoSecondary	Alpha		255		Linear	0.0		0.1
+}
+
+event WeaponDoesNotUseSecondaryAmmo
+{
+	StopPanelAnimations	HudAmmoSecondary 	0.0
+	Animate HudAmmoSecondary	FgColor		"0 0 0 0"	Linear	0.0		0.4
+	Animate HudAmmoSecondary	BgColor		"0 0 0 0"	Linear	0.0		0.4
+	Animate HudAmmoSecondary	Alpha		0		Linear	0.0		0.1
+}
+
+
 
 event WeaponHighlight
 {
-	Animate HudWeaponSelection		Blur		"7"			Linear		0.0	0.0 
-	Animate HudWeaponSelection		Blur		"0"			Deaccel		0.01	0.75 
-
-	Animate HudWeaponSelection		SelectedBoxColor	"250 220 0 80"	Linear	0.0		0.01
-	Animate HudWeaponSelection		SelectedBoxColor	"BgColor"		Deaccel	0.1		1.5
-	Animate HudWeaponSelection		SelectedFgColor		"BrightFg"		Linear	0.0		0.1
-	Animate HudWeaponSelection		SelectedFgColor		"FgColor"		Linear	5.0		1.5
+	//TODO LATER
 }
+
+
 
 event OpenWeaponSelectionMenu
 {
@@ -64,9 +80,8 @@ event OpenWeaponSelectionMenu
 	Animate HudWeaponSelection Alpha 		"128"		Linear 0.0 0.1	[$WIN32]
 	Animate HudWeaponSelection Alpha 		"192"		Linear 0.0 0.1	[$X360]
 	Animate HudWeaponSelection SelectionAlpha 	"255"		Linear 0.0 0.1
-	Animate HudWeaponSelection FgColor		"FgColor"	Linear 0.0 0.1
-	Animate HudWeaponSelection TextColor		"BrightFg"	Linear 0.0 0.1
-	Animate HudWeaponSelection TextScan		"1" 		Linear 0.0 0.1
+	Animate HudWeaponSelection TextColor		"255 0 0 255"	Linear 0.0 0.1
+	Animate HudWeaponSelection FgColor		"255 0 0 255"	Linear 0.0 0.1
 }
 
 event CloseWeaponSelectionMenu
@@ -107,14 +122,12 @@ event SuitAuxPowerNotMax
 
 event SuitAuxPowerDecreasedBelow25
 {
-	// make color red
-	Animate HudSuitPower AuxPowerColor	"255 0 0 220"		Linear 0.0 0.4
+	// TODO LATER
 }
 
 event SuitAuxPowerIncreasedAbove25
 {
-	// make colr bright
-	Animate HudSuitPower AuxPowerColor	"255 220 0 220"		Linear 0.0 0.4
+	//TODO LATER
 }
 
 event SuitAuxPowerNoItemsActive
@@ -247,66 +260,28 @@ event HudPlayerDeath
 
 event HealthIncreasedAbove20
 {
-	StopEvent	HealthLoop  0.0
-	StopEvent	HealthPulse 0.0
-	StopEvent	HealthLow   0.0
 
-	Animate	HudHealth	BgColor	"BgColor"	Linear	0.0	0.0
-	
-	Animate	HudHealth	TextColor "FgColor" Linear 0.0 0.04
-	Animate	HudHealth	FgColor   "FgColor" Linear 0.0 0.03
-	
-	Animate	HudHealth		Blur		"3"			Linear	0.0		0.1
-	Animate	HudHealth		Blur		"0"			Deaccel	0.1		2.0
 }
 
 event HealthIncreasedBelow20
 {
-	Animate HudHealth	FgColor		"BrightFg"	Linear	0.0		0.25
-	Animate HudHealth	FgColor		"FgColor"		Linear	0.3		0.75
 	
-	Animate HudHealth		Blur		"3"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"0"			Deaccel	0.1		2.0
 }
 
 event SuitPowerIncreasedAbove20
 {
-	StopEvent	SuitLoop 0.0
-	StopEvent	SuitPulse 0.0
-	StopEvent	SuitPowerZero	0.0
 
-	Animate	HudSuit 	Alpha		"255"			Linear 0.0 0.0
-
-	Animate	HudSuit		BgColor		"BgColor"	Linear	0.0	0.0
-	
-	Animate	HudSuit 	TextColor	"FgColor"	Linear 0.0 0.05
-	Animate	HudSuit		FgColor		"FgColor"	Linear 0.0 0.05
-	
-	Animate	HudSuit		Blur		"3"			Linear	0.0		0.1
-	Animate	HudSuit		Blur		"0"			Deaccel	0.1		2.0
 }
 
 
 event SuitPowerIncreasedBelow20
 {
-	StopEvent		SuitPowerZero	0.0
-	Animate	HudSuit 	Alpha		"255"			Linear 0.0 0.0
 
-	Animate HudSuit		FgColor		"BrightFg"	Linear	0.0		0.25
-	Animate HudSuit		FgColor		"FgColor"	Linear	0.3		0.75
-	
-	Animate HudSuit		Blur		"3"			Linear	0.0		0.1
-	Animate HudSuit		Blur		"0"			Deaccel	0.1		2.0
 }
 
 event SuitPowerZero
 {
-	StopEvent	SuitLoop 0.0
-	StopEvent	SuitPulse 0.0
-	StopEvent	SuitArmorLow 0.0
-	StopEvent	SuitDamageTaken 0.0
-
-	Animate	HudSuit Alpha		"0"			Linear 0.0 0.4
+	
 }
 
 event TestMovement
@@ -317,14 +292,7 @@ event TestMovement
 
 event HealthDamageTaken
 {
-	Animate HudHealth	FgColor		"BrightFg"	Linear	0.0		0.25
-	Animate HudHealth	FgColor		"FgColor"		Linear	0.3		0.75
-	
-	Animate HudHealth		Blur		"3"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"0"			Deaccel	0.1		2.0
-	
-	Animate HudHealth TextColor		"BrightFg"	Linear	0.0		0.1
-	Animate HudHealth	TextColor		"FgColor"		Deaccel	0.1		1.2
+	//TODO LATER
 }
 
 event SuitDamageTaken
@@ -342,41 +310,17 @@ event SuitDamageTaken
 // health has been damaged to below 20%
 event HealthLow
 {
-	StopEvent HealthDamageTaken	0.0
-	StopEvent HealthPulse	0.0
-	StopEvent HealthLoop	0.0	
 	
-	Animate HudHealth	BgColor		"DamagedBg"		Linear	0.0		0.1
-	Animate HudHealth	BgColor		"BgColor"		Deaccel	0.1		1.75
-	
-	Animate HudHealth	FgColor		"BrightFg"	Linear	0.0		0.2
-	Animate HudHealth	FgColor		"DamagedFg"		Linear	0.2		1.2
-	
-	Animate HudHealth TextColor		"BrightFg"	Linear	0.0		0.1
-	Animate HudHealth	TextColor		"DamagedFg"		Linear	0.1		1.2
-	
-	Animate HudHealth		Blur		"5"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"3"			Deaccel	0.1		0.9
-
-	RunEvent HealthPulse	1.0
 }
 
 event HealthPulse
 {
-	Animate HudHealth		Blur		"5"			Linear	0.0		0.1
-	Animate HudHealth		Blur		"2"			Deaccel	0.1		0.8
-	Animate HudHealth		TextColor	"BrightDamagedFg"	Linear	0.0		0.1
-	Animate HudHealth		TextColor	"DamagedFg"		Deaccel	0.1		0.8
-	Animate HudHealth		BgColor	"100 0 0 80"		Linear	0.0		0.1
-	Animate HudHealth		BgColor	"BgColor"		Deaccel	0.1		0.8
-
-	RunEvent HealthLoop	0.8
+	Animate HudHealth	BgColor		"BgColor" 	Linear	0.0		0.1	
 }
 
 // call to loop HealthPulse
 event HealthLoop
 {
-	RunEvent HealthPulse 0.0
 }
 
 
@@ -504,8 +448,8 @@ event AmmoSecondaryEmpty
 // current weapon has been changed
 event WeaponChanged
 {
-	Animate HudAmmo		BgColor		"250 50 0 80"	Linear	0.0		0.1
-	Animate HudAmmo		BgColor		"BgColor"		Deaccel	0.1		1.0
+
+	Animate HudAmmo	BgColor		"BgColor" 	Linear	0.0		0.1
 	Animate HudAmmo		FgColor		"BrightFg"		Linear	0.0		0.1
 	Animate HudAmmo		FgColor		"FgColor"		Linear	0.2		1.5
 }
@@ -534,32 +478,7 @@ event WeaponDoesNotUseClips	[$X360]
 	Animate HudAmmo		Size		"125 36"	Deaccel	0.0		0.4
 }
 
-event WeaponUsesSecondaryAmmo
-{
-	StopAnimation 	HudAmmo Position 0.0
-	StopAnimation 	HudAmmo Size 0.0
-	StopPanelAnimations HudAmmoSecondary 0.0
-	//StopPanelAnimations HudAmmo 0.0
 
-	Animate HudAmmoSecondary	BgColor		"250 50 0 80"	Linear	0.0		0.1
-	Animate HudAmmoSecondary	BgColor		"BgColor"		Deaccel	0.1		1.0
-	Animate HudAmmoSecondary	FgColor		"BrightFg"	Linear	0.0		0.1
-	Animate HudAmmoSecondary	FgColor		"FgColor"		Linear	0.2		1.5
-	Animate HudAmmoSecondary	Alpha		255		Linear	0.0		0.1
-
-	Animate HudAmmo		Position	"r222 432"	Deaccel	0.0		0.5	[$WIN32]
-	Animate HudAmmo		Size		"132 36"	Deaccel	0.0		0.4	[$WIN32]
-	Animate HudAmmo		Position	"r279 416"	Deaccel	0.0		0.5	[$X360]
-	Animate HudAmmo		Size		"155 36"	Deaccel	0.0		0.4	[$X360]
-}
-
-event WeaponDoesNotUseSecondaryAmmo
-{
-	StopPanelAnimations	HudAmmoSecondary 	0.0
-	Animate HudAmmoSecondary	FgColor		"0 0 0 0"	Linear	0.0		0.4
-	Animate HudAmmoSecondary	BgColor		"0 0 0 0"	Linear	0.0		0.4
-	Animate HudAmmoSecondary	Alpha		0		Linear	0.0		0.1
-}
 
 event CraneMagnetFlash
 {
@@ -571,18 +490,6 @@ event CraneMagnetFlash
 
 event HintMessageShow
 {
-	StopPanelAnimations HudHintDisplay	0.0
-
-	Animate HudHintDisplay HintSize	"1"		Deaccel 0.0	0.3
-	Animate HudHintDisplay FgColor	"FgColor" 	Linear 0.4      0.4
-
-	// flash text
-	Animate HudHintDisplay FgColor	"FgColor" 	Linear 1.5 0.01
-	Animate HudHintDisplay FgColor	"255 220 0 255" Linear 2.0 0.2
-	Animate HudHintDisplay FgColor	"FgColor" 	Linear 2.2 0.2
-	Animate HudHintDisplay FgColor	"255 220 0 255" Linear 3.0 0.2
-	Animate HudHintDisplay FgColor	"FgColor" 	Linear 3.2 0.2
-
 	// hide the panel after a while	
 	Animate HudHintDisplay FgColor	"255 220 0 0"   Linear  10.0 	0.2
 	Animate HudHintDisplay HintSize	"0"		Deaccel 10.2	0.3
@@ -602,12 +509,6 @@ event KeyHintMessageShow
 	// show the hints
 	Animate HudHintKeyDisplay Alpha	255 Linear 0.0 0.5
 
-	// flash text
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.0 0.01
-	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 0.5 0.2
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.7 0.2
-	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 1.5 0.2
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 1.7 0.2
 
 	// hide the panel after a while	
 	Animate HudHintKeyDisplay Alpha	0 Linear 12.0 1.0
@@ -703,6 +604,7 @@ event HideCommentary
 	StopEvent	ShowCommentary 0.0
 	Animate 	HudCommentary 	Alpha	0 Linear 0.0 0.5
 }
+
 
 // Voting
 event PulseOption1

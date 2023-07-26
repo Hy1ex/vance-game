@@ -23,38 +23,43 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		"FgColor"			"255 139 139 100"
-		"FgColor_vrmode"	"200 0 0 100"
-		"BgColor"			"33 0 0 90"
-		"AchievementMessageBg"	"55 55 55 196"
-		"Panel.FgColor"			"200 0 0 255"
-		"Panel.BgColor"			"0 0 0 200"
-		
-		"BrightFg"		"200 0 0 110"
+		"FgColor"			"255 0 0 255"
+		"BgColor"			"48 17 17 175"
 
-		"DamagedBg" "255 225 225 200"
-		"DamagedFg" "255 225 225 230"
-		"BrightDamagedFg" "255 225 255 255"
+		"Panel.FgColor"			"255 0 0 100"
+		"Panel.BgColor"			"0 0 0 100"
+		
+		"BrightFg"		"255 0 0 255"
+
+		"DamagedBg"			"180 0 0 255"
+		"DamagedFg"			"180 0 0 255"
+		"BrightDamagedFg"		"255 0 0 255"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"255 136 139 255"
-		"SelectionTextFg"		"255 136 139 255"
+		"SelectionNumberFg"		"255 0 0 255"
+		"SelectionTextFg"		"255 0 0 255"
 		"SelectionEmptyBoxBg" 	"0 0 0 80"
-		"SelectionBoxBg" 		"0 0 0 80"
-		"SelectionSelectedBoxBg" "0 0 0 80"
+		"SelectionBoxBg" 		"59 0 21 230"
+		"SelectionSelectedBoxBg" "59 0 21 230"
 		
 		"ZoomReticleColor"	"255 220 0 255"
 
 		// HL1-style HUD colors
 		"Yellowish"			"255 160 0 255"
-		"Normal"			"255 208 64 255"
+		"Normal"			"255 0 0 255"
 		"Caution"			"255 48 0 255"
 
-		// Top-left corner of the "VANCE" on the main screen
-		"Main.Title1.X"				"53"
-		"Main.Title1.Y"				"185"
-		"Main.Title1.Y_hidef"		"145"
+		// Top-left corner of the "Half-Life 2" on the main screen
+		"Main.Title1.X"				"76"
+		"Main.Title1.Y"				"145"
+		"Main.Title1.Y_hidef"		"130"
 		"Main.Title1.Color"	"255 255 255 255"
+
+		// Top-left corner of secondary title e.g. "DEMO" on the main screen
+		"Main.Title2.X"				"76"
+		"Main.Title2.Y"				"190"
+		"Main.Title2.Y_hidef"		"174"
+		"Main.Title2.Color"	"255 255 255 200"
 
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"			"53"
@@ -274,8 +279,25 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"64"
-				"tall_hidef"	"58"
+				"tall"		"53"
+				"tall_hidef"	"53"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+
+		WeaponGlowIcons
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"53"
+				"tall_hidef"	"53"
+				"weight"	"0"
+				"blur"		"4"
+				"scanlines" "1"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
@@ -287,11 +309,11 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"64"
-				"tall_hidef"	"58"
+				"tall"		"53"
+				"tall_hidef"	"53"
 				"weight"	"0"
 				"antialias" "1"
-				"blur"		"5"
+				"blur"		"1"
 				"scanlines"	"2"
 				"additive"	"1"
 				"custom"	"1"
@@ -358,6 +380,81 @@ Scheme
 				"custom"	"1"
 			}
 		}
+
+		HudLabelGlow
+		{
+			"1"
+			{
+				"name"		"My Font"
+				"tall"		"40"	[$WIN32]
+				"tall"		"38"	[$X360]
+				"blur"		"4"
+				"scanlines" "1"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+
+		HudSelect
+		{
+			"1"
+			{
+				"name"		"My Font"
+				"tall"		"70"	[$WIN32]
+				"tall"		"38"	[$X360]
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		HudSelectGlow
+		{
+			"1"
+			{
+				"name"		"My Font"
+				"tall"		"70"	[$WIN32]
+				"tall"		"38"	[$X360]
+				"weight"	"0"
+				"blur"		"4"
+				"scanlines" "1"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		HudLabel
+		{
+			"1"
+			{
+				"name"		"My Font"
+				"tall"		"40"	[$WIN32]
+				"tall"		"38"	[$X360]
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+
+		HUD_battery
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"40"	[$WIN32]
+				"tall"		"38"	[$X360]
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+	
+
+
 		SquadIcon	[$X360]
 		{
 			"1"
@@ -379,7 +476,7 @@ Scheme
 				"tall"		"38"	[$X360]
 				"weight"	"0"
 				"blur"		"4"
-				"scanlines" "2"
+				"scanlines" "1"
 				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
@@ -404,12 +501,26 @@ Scheme
 			"1"
 			{
 				"name"		"HalfLife2"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"700"
 				"antialias" "1"
 				"additive"	"1"
 			}
 		}
+		HudSelectionNumbersGlow
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"12"
+				"weight"	"700"
+				"blur"		"4"
+				"scanlines" "1"
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+
 		HudHintTextLarge
 		{
 			"1"	[$X360]
@@ -518,9 +629,9 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Lucida Console"
-				"tall"		"10"
-				"weight"	"0"
+				"name"		"Courier New"
+				"tall"		"14"
+				"weight"	"400"
 				"outline"	"1"
 			}
 			"1"	[$X360]
@@ -626,9 +737,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "VANCE"
-				"tall"			"64"
-				"tall_hidef"	"78"
+				"name"  "HL2EP2"
+				"tall"			"34"
+				"tall_hidef"	"48"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"
@@ -788,8 +899,8 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
-		"3"		"resource/HL2EP2.ttf"
-		"4"		"resource/VANCE.ttf"
+		"3"	"resource/HL2EP2.ttf"
+		"4"	"resource/MyFont-Regular.otf"		
 	}
 
 }

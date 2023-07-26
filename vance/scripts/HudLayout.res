@@ -5,115 +5,49 @@
 		"fieldName"		"HudHealth"
 		"xpos"	"16"
 		"ypos"	"432"
-		"wide"	"102"
+		"wide"	"145"
 		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
 		
-		"text_xpos" "8"
-		"text_ypos" "20"
-		"digit_xpos" "50"
-		"digit_ypos" "2"
-	}
-	HudHealth [$X360]
-	{
-		"fieldName"		"HudHealth"
-		"xpos"	"48"
-		"ypos"	"416"
-		"wide"	"115"
-		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-		
-		"text_xpos" "8"
-		"text_ypos" "18"
-		"digit_xpos" "60"
-		"digit_ypos" "-1"
+		"text_xpos" "5"
+		"text_ypos" "-5"
+		"digit_xpos" "30"
+		"digit_ypos" "0"
+		"separator_ypos" "-4"
+		"text2_xpos" "85"
+		"digit2_xpos" "100"
+		"digit2_ypos" "100"
 	}
 	
-	HudSuit [$WIN32]
-	{
-		"fieldName"		"HudSuit"
-		"xpos"	"140"
-		"ypos"	"432"
-		"wide"	"108"
-		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-
-		"text_xpos" "8"
-		"text_ypos" "20"
-		"digit_xpos" "50"
-		"digit_ypos" "2"
-	}
-	HudSuit [$X360]
-	{
-		"fieldName"		"HudSuit"
-		"xpos"	"176"
-		"ypos"	"416"
-		"wide"	"117"
-		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-
-		"text_xpos" "8"
-		"text_ypos" "18"
-		"digit_xpos" "50"
-		"digit_ypos" "-1"
-	}
-
 	HudAmmo	[$WIN32]
 	{
 		"fieldName" "HudAmmo"
 		"xpos"	"r150"
 		"ypos"	"432"
-		"wide"	"136"
+		"wide"	"150"
 		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
 
-		"text_xpos" "8"
+		"text_xpos" "119"
 		"text_ypos" "20"
-		"digit_xpos" "44"
+		"digit_xpos" "22"
+		"separator_ypos" "-4"
 		"digit_ypos" "2"
-		"digit2_xpos" "98"
+		"digit2_xpos" "58"
 		"digit2_ypos" "16"
-	}
-	HudAmmo	[$X360]
-	{
-		"fieldName" "HudAmmo"
-		"xpos"	"r208"
-		"ypos"	"416"
-		"wide"	"160"
-		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-
-		"text_xpos" "8"
-		"text_ypos" "18"
-		"digit_xpos" "60"
-		"digit_ypos" "-1"
-		"digit2_xpos" "120"
-		"digit2_ypos" "14"
 	}
 
 	HudAmmoSecondary	[$WIN32]
 	{
 		"fieldName" "HudAmmoSecondary"
-		"xpos"	"r76"
-		"ypos"	"432"
+		"xpos"	"r78"
+		"ypos"	"394"
 		"wide"	"60"
 		"tall"  "36"
 		"visible" "1"
@@ -121,28 +55,12 @@
 
 		"PaintBackgroundType"	"2"
 
-		"text_xpos" "8"
+		"text_xpos" "40"
 		"text_ypos" "22"
-		"digit_xpos" "36"
+		"digit_xpos" "8"
 		"digit_ypos" "2"
 	}
-	HudAmmoSecondary	[$X360]
-	{
-		"fieldName" "HudAmmoSecondary"
-		"xpos"	"r113"
-		"ypos"	"416"
-		"wide"	"65"
-		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
 
-		"PaintBackgroundType"	"2"
-
-		"text_xpos" "8"
-		"text_ypos" "22"
-		"digit_xpos" "36"
-		"digit_ypos" "-1"
-	}
 
 	HudPosture	[$WIN32]
 	{
@@ -170,23 +88,7 @@
 		"icon_xpos"	"10"
 		"icon_ypos" 	"2"
 	}
-	
-	HudHull
-	{
 
-		"fieldName" "HudHull"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "12"
-		"ypos" "420"
-		"wide" "120"
-		"tall" "10"
-		"text_xpos" "5"
-		"text_ypos" "2"
-		"TextColor" "0 255 0 80"
-		"PaintBackgroundType" "2"
-
-	}
 	HudSuitPower	[$WIN32]
 	{
 		"fieldName" "HudSuitPower"
@@ -316,21 +218,17 @@
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
-		"ypos" 	"16"	[$WIN32]
+		"ypos" 	"0"	[$WIN32]
 		"ypos" 	"32"	[$X360]
 		"visible" "1"
 		"enabled" "1"
-		"SmallBoxSize" "32"
-		"MediumBoxWide"	"95"
-		"MediumBoxWide_hidef"	"78"
-		"MediumBoxTall"	"50"
-		"MediumBoxTall_hidef"	"50"
-		"MediumBoxWide_lodef"	"74"
-		"MediumBoxTall_lodef"	"50"
-		"LargeBoxWide" "112"
-		"LargeBoxTall" "60"
-		"BoxGap" "8"
-		"SelectionNumberXPos" "4"
+		"SmallBoxSize" "18"
+		"MediumBoxWide"	"105"
+		"MediumBoxTall"	"55"
+		"LargeBoxWide" "129"
+		"LargeBoxTall" "40"
+		"BoxGap" "4"
+		"SelectionNumberXPos" "10"
 		"SelectionNumberYPos" "4"
 		"SelectionGrowTime"	"0.4"
 		"TextYPos" "64"
