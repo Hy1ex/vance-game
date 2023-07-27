@@ -4,7 +4,8 @@
 	"$bumpmap" 	"models\weapons\stim/stim_normal"
 	"$roughness"	"models/weapons/stim/stim_Rough"
 	"$metallic"	"models/weapons/stim/stim_Metal"
-	"$ao"		"models/weapons/stim/stim_AO"	
+	"$ao"		"models/weapons/stim/stim_AO"
+	"$emissive"	"models/weapons/stim/stim_E"
 //metal
 	"$envmap" "env_cubemap"
 	"$normalmapalphaenvmapmask" "1"

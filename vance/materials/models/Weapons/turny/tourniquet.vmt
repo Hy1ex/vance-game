@@ -1,0 +1,14 @@
+"VertexLitPBR"
+{
+	"$baseTexture"	"models\weapons\turny/turny_diff"
+	"$bumpmap" 	"models\weapons\turny/turny_normal"
+	"$roughness"	"models/weapons/turny/turny_Rough"
+	"$metallic"	"models/weapons/turny/turny_Metal"
+	"$ao"		"models/weapons/turny/turny_AO"	
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+//	"$envmaptint" "[.01 .01 .01]"
+//	"$envmaptint" "{ 4 7 9 }"
+	"$pbr" "1"
+}
