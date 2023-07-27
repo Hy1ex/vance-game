@@ -12,7 +12,7 @@ WeaponData
 	"bucket_360"			"1"
 	"bucket_position_360"	"1"
 
-	"clip_size"				"8"
+	"clip_size"				"6"
 	"primary_ammo"			"Buckshot"
 	"secondary_ammo"		"None"
 	"bulletsize"			"1"

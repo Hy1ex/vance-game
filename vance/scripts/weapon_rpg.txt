@@ -15,7 +15,7 @@ WeaponData
 
 	"clip_size"				"-1"
 	"clip2_size"			"-1"
-	"default_clip"			"3"
+	"default_clip"			"4"
 	"default_clip2"			"-1"
 
 	"primary_ammo"			"rpg_round"
