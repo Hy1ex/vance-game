@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_unique/Escalator"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast"	.7
+	"$envmapsaturation"	.4
+	"$envmaptint"		"[.7 .7 .7]"
+	"$envmapmask" "models\props_unique/Escalator_ref"
+//	"$envmapmask" "fx\white25_ref"
+}

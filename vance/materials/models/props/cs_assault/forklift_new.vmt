@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\cs_assault\forklift_new"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	//"$color" "[.2 .2 .2]"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost"	"5"
+	"$phongfresnelranges"	"[.3 .6 4]"
+	"$basealphaenvmapmask" "1"
+	"$basemapalphaphongmask" "1"	
+	"$envmapcontrast" 1
+	"$envmapsaturation" .01
+	//"$envmaptint" "[1 1 1 ]"
+	//"$normalmapalphaenvmapmask" 1
+	"$envmaplightscale" .6
+	
+	
+}
