@@ -278,7 +278,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"53"
 				"tall_hidef"	"53"
 				"weight"	"0"
@@ -292,7 +292,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"53"
 				"tall_hidef"	"53"
 				"weight"	"0"
@@ -308,7 +308,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"53"
 				"tall_hidef"	"53"
 				"weight"	"0"
@@ -323,7 +323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"32"
 				"weight"	"0"
 				"antialias" "1"
@@ -335,7 +335,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"40" [!$OSX]
 				"tall"		"41" [$OSX]
 				"weight"	"0"
@@ -371,7 +371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"32"	[$WIN32]
 				"tall"		"38"	[$X360]
 				"weight"	"0"
@@ -443,7 +443,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"40"	[$WIN32]
 				"tall"		"38"	[$X360]
 				"weight"	"0"
@@ -459,7 +459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"50"
 				"weight"	"0"
 				"antialias" "1"
@@ -471,7 +471,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"32"	[$WIN32]
 				"tall"		"38"	[$X360]
 				"weight"	"0"
@@ -486,7 +486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2" [!$OSX]
+				"name"		"My Font" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
 				"tall"		"16"	[$WIN32]
 				"tall"		"22"	[$X360]
@@ -500,7 +500,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"12"
 				"weight"	"700"
 				"antialias" "1"
@@ -511,7 +511,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"My Font"
 				"tall"		"12"
 				"weight"	"700"
 				"blur"		"4"
