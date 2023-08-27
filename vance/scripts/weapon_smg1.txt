@@ -26,7 +26,7 @@ WeaponData
 		"CameraAttachment"
 	{
 		"Attachment"	"camera"
-		"Amount"	"2"
+		"Amount"	"3"
 	}
 
 
