@@ -84,8 +84,8 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"font"		"Crosshairs"
-				"character"	"Q"
+				"font"		"VANCECrosshairs"
+				"character"	"C"
 		}
 		"autoaim"
 		{

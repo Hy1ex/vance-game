@@ -345,6 +345,20 @@ Scheme
 				"yres"		"1 10000"
 			}
 		}
+		VANCECrosshairs
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"40" [!$OSX]
+				"tall"		"41" [$OSX]
+				"weight"	"0"
+				"antialias" "0"
+				"additive"	"1"
+				"custom"	"1"
+				"yres"		"1 10000"
+			}
+		}
 		QuickInfo
 		{
 			"1"	[$X360]
@@ -901,6 +915,7 @@ Scheme
 		"2"		"resource/HL2crosshairs.ttf"
 		"3"	"resource/HL2EP2.ttf"
 		"4"	"resource/MyFont-Regular.otf"		
+		"5"	"resource/Crosshairs-Regular.otf"		
 	}
 
 }

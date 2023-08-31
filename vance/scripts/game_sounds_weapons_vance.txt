@@ -346,6 +346,30 @@
 	}
 }
 
+"Weapon_Shotgun.BoltBack"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"weapons/shotgun/boltback.wav"
+	}
+}
+
+"Weapon_Shotgun.BoltForward"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"weapons/shotgun/boltforward.wav"
+	}
+}
+
 "Weapon_AR2.Single"
 {
 	"channel"	"CHAN_AUTO"
