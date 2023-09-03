@@ -462,6 +462,23 @@
 	}
 }
 
+"Gun.Jiggle"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.6"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"90,105"
+
+	"rndwave"
+	{
+		"wave"	"weapons/foley/jiggle1.wav"
+		"wave"	"weapons/foley/jiggle2.wav"
+		"wave"	"weapons/foley/jiggle3.wav"
+		"wave"	"weapons/foley/jiggle4.wav"
+		"wave"	"weapons/foley/jiggle5.wav"
+	}
+}
+
 "Foley.Cloth"
 {
 	"channel"	"CHAN_STATIC"
